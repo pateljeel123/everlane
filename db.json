@@ -1,0 +1,102 @@
+{
+  "products":[ {
+   "product_name": "The Way-High® Jean",
+   "product_url": "https://www.everlane.com/products/womens-way-high-jean-bright-blue?collection=womens-all",
+   "price": "₹ 10140",
+   "color": "Mid Indigo",
+   "material": "Organic Cotton",
+   "sustainability": "Cleaner Chemistry",
+   "image1": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/43cfa5c7_9eac/womens-way-high-jean-bright-blue",
+   "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/6829a2f3_8fd8/womens-way-high-jean-bright-blue"
+ },
+ {
+   "product_name": "The Organic Cotton Box-Cut Tee",
+   "product_url": "https://www.everlane.com/products/womens-organic-cotton-box-cut-tee-heathered-oat?collection=womens-all",
+   "price": "₹ 2580",
+   "color": "Heathered Oat",
+   "material": "Organic Cotton",
+   "sustainability": "Ever-Better Factory",
+   "image1": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/3f842608_3639/womens-organic-cotton-box-cut-tee-heathered-oat",
+   "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/91ccb749_a882/womens-organic-cotton-box-cut-tee-heathered-oat"
+ },
+ {
+   "product_name": "The Utility Barrel Pant",
+   "product_url": "https://www.everlane.com/products/womens-utility-arc-pant-organic-bone?collection=womens-all",
+   "price": "₹ 8420",
+   "color": "Bone",
+   "material": "Organic Cotton",
+   "sustainability": "Cleaner Chemistry",
+   "image1": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/76fe7e83_1f18/womens-utility-arc-pant-organic-bone",
+   "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/900f51f3_17f7/womens-utility-arc-pant-organic-bone"
+ },
+ {
+   "product_name": "The Organic Cotton Box-Cut Tee",
+   "product_url": "https://www.everlane.com/products/womens-organic-cotton-box-cut-tee-white?collection=womens-all",
+   "price": "₹ 2580",
+   "color": "White",
+   "material": "Organic Cotton",
+   "sustainability": "Cleaner Chemistry",
+   "image1": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/8e3f76d9_8d7e/womens-organic-cotton-box-cut-tee-white",
+   "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/0db958de_a7c9/womens-organic-cotton-box-cut-tee-white"
+ },
+ {
+   "product_name": "The Draper Pleated Pant in Buttersmooth",
+   "product_url": "https://www.everlane.com/products/womens-way-high-drape-pant-short-heather-steel?collection=womens-all",
+   "price": "₹ 11000",
+   "color": "Heather Steel",
+   "material": "Responsible Forestry",
+   "sustainability": "Ever-Better Factory",
+   "image1": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/8352055e_367d/womens-way-high-drape-pant-short-heather-steel",
+   "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/18a5774c_3df3/womens-way-high-drape-pant-short-heather-steel"
+ },
+ {
+   "product_name": "The Boxy Oxford",
+   "product_url": "https://www.everlane.com/products/womens-boxy-oxford-whisper-pink?collection=womens-all",
+   "price": "₹ 7560",
+   "color": "Whisper Pink",
+   "material": "Organic Cotton",
+   "sustainability": "Cleaner Chemistry",
+   "image1": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/0e55ef85_d924/womens-boxy-oxford-whisper-pink",
+   "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/f3cc7d51_46bb/womens-boxy-oxford-whisper-pink"
+ },
+ {
+   "product_name": "The ’90s Cheeky® Jean",
+   "product_url": "https://www.everlane.com/products/womens-90s-cheeky-straight-jean-vintage-sbblue?collection=womens-all",
+   "price": "₹ 9460",
+   "color": "Vintage Sunbleached Blue",
+   "material": "Ever-Better Factory",
+   "sustainability": "Reduced Water Use",
+   "image1": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/883f3fd1_5160/womens-90s-cheeky-straight-jean-vintage-sbblue",
+   "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/0c7d505f_ff2b/womens-90s-cheeky-straight-jean-vintage-sbblue"
+ },
+ {
+   "product_name": "The Original Cheeky® Jean",
+   "product_url": "https://www.everlane.com/products/womens-original-cheeky-jean-ankle-vintage-wash?collection=womens-all",
+   "price": "₹ 8420",
+   "color": "Vintage Wash",
+   "material": "Organic Cotton",
+   "sustainability": "Cleaner Chemistry",
+   "image1": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/51c2aa6e_020c/womens-original-cheeky-jean-ankle-vintage-wash",
+   "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/e938f765_8d72/womens-original-cheeky-jean-ankle-vintage-wash"
+ },
+ {
+   "product_name": "The Dream Pant®",
+   "product_url": "https://www.everlane.com/products/womens-live-in-pant-black?collection=womens-all",
+   "price": "₹ 7560",
+   "color": "Black",
+   "material": "Ever-Better Factory",
+   "sustainability": "",
+   "image1": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/9f76c18c_c736/womens-live-in-pant-black",
+   "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/5ace9812_eff0/womens-live-in-pant-black"
+ },
+ {
+   "product_name": "The Easy Pant",
+   "product_url": "https://www.everlane.com/products/womens-easy-straight-leg-chino-graphite?collection=womens-all",
+   "price": "₹ 8420",
+   "color": "Graphite",
+   "material": "Organic Cotton",
+   "sustainability": "Cleaner Chemistry",
+   "image1": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/2c913f0d_5b7f/womens-easy-straight-leg-chino-graphite",
+   "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/3b7f8770_234a/womens-easy-straight-leg-chino-graphite"
+ }]
+ }
