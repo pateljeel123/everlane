@@ -14,7 +14,7 @@ function Ocan() {
         <div className="position-absolute top-50 start-50 translate-middle text-white">
           <h1 className="fw-bold">We're on a Mission To Clean Up the Industry</h1>
           <p>Read about our progress in our latest Impact Report.</p>
-          <button className="btn btn-light">LEARN MORE</button>
+          <button className="btn btn-light btn-lg" aria-label="Learn more about our mission">LEARN MORE</button>
         </div>
       </div>
     </div>

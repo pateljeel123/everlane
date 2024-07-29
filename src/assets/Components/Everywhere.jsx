@@ -1,4 +1,4 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
+import React from 'react';
 import { Link } from 'react-router-dom';
 
 function Everywhere() {
@@ -15,8 +15,7 @@ function Everywhere() {
             className="img-fluid"
           />
           <p className="mt-3">You've got vacation plans. We've got looks to pack.</p>
-          <Link>read more</Link>
-          
+          <Link to="/read-more">Read more</Link>
         </div>
 
         <div className="col-md-6">
@@ -29,7 +28,7 @@ function Everywhere() {
             className="img-fluid"
           />
           <p className="mt-3">See the sustainability efforts behind each of our products.</p>
-          <Link>read more</Link>
+          <Link to="/read-more">Read more</Link>
         </div>
       </div>
     </div>

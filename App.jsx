@@ -1,7 +1,6 @@
 
-import Home from './assets/Components/Home'
-import Navbar from './assets/Components/Navbar'
-import Routeis from './Routeis'
+import Routeis from'./Routeis'
+import Home from'./assets/Components/Home'
 
 function App() {
  
@@ -11,12 +10,10 @@ function App() {
      
      
 
-     {/* <Home/> */}
-
-     <div className="App">
-      <Navbar/>
-      <Routeis />
-    </div>
+     <Home/>
+     
+    <Routeis />
+     
      
      
     </>

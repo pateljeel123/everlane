@@ -12,8 +12,8 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light justify-content-around">
-        <div className="container-fluid justify-content-around">
+      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <div className="container-fluid">
           <button
             className="navbar-toggler"
             type="button"
@@ -24,57 +24,49 @@ const Navbar = () => {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="d-flex w-100 justify-content-around">
-            <div className="d-none d-lg-block">
-              <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                <li className="nav-item">
-                  <Link
-                    className="nav-link active"
-                    aria-current="page"
-                    to="/women"
-                  >
-                    Women
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link className="nav-link" to="/men">
-                    Men
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link className="nav-link" to="/about">
-                    About
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link className="nav-link" to="/everworld-stories">
-                    Everworld Stories
-                  </Link>
-                </li>
-              </ul>
-            </div>
+          <div className="collapse navbar-collapse">
+            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+              <li className="nav-item">
+                <Link className="nav-link" to="/women">
+                  Women
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/men">
+                  Men
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/about">
+                  About
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/more">
+                  More
+                </Link>
+              </li>
+            </ul>
             <Link className="navbar-brand mx-auto" to="/">
               EVERLANE
             </Link>
-            <div className="d-none d-lg-block">
-              <ul className="navbar-nav">
-                <li className="nav-item">
-                  <Link className="nav-link" to="#">
-                    <BsSearch />
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link className="nav-link" to="#">
-                    <BsPerson />
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link className="nav-link" to="#">
-                    <BsCart />
-                  </Link>
-                </li>
-              </ul>
-            </div>
+            <ul className="navbar-nav ms-auto">
+              <li className="nav-item">
+                <Link className="nav-link" to="#">
+                  <BsSearch />
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="#">
+                  <BsPerson />
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="#">
+                  <BsCart />
+                </Link>
+              </li>
+            </ul>
           </div>
         </div>
       </nav>
@@ -101,12 +93,8 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link
-                className="nav-link"
-                to="/everworld-stories"
-                onClick={handleClose}
-              >
-                Everworld Stories
+              <Link className="nav-link" to="/more" onClick={handleClose}>
+                More
               </Link>
             </li>
           </ul>

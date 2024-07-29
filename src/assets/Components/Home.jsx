@@ -1,3 +1,4 @@
+import Routeis from "../../Routeis"
 import Category from "./Category"
 import Discount from "./Discount"
 import Everywhere from "./Everywhere"
@@ -10,6 +11,7 @@ function Home() {
   return (
     <div>
       <Navbar/>
+      <Routeis/>
       
          
       <Slider/>
