@@ -78,3 +78,27 @@
   color: black
 }
 
+.imagecool {
+  height: 600px;
+}
+
+
+.color1 {
+  color: #fff;
+}
+
+
+.builder-block-btn {
+  background-color: #fff;
+  padding: 8px;
+  border: none;
+  transition: all 0.4S;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+.builder-block-btn:hover {
+  color: #fff;
+  background-color: #000;
+}

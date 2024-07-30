@@ -47,7 +47,7 @@ const Navbar = () => {
                 </Link>
               </li>
             </ul>
-            <Link className="navbar-brand mx-auto" to="/">
+            <Link className="navbar-brand mx-auto" to="/home">
               EVERLANE
             </Link>
             <ul className="navbar-nav ms-auto">

@@ -5,7 +5,7 @@ import { Pagination } from 'swiper/modules';
 
 function Productsslider() {
   return (
-    <div>
+    <div style={{padding:"50px"}}> 
       <h5 className='jeel' style={{ marginTop: "20px", textAlign: "center" }}>Almost Fall Vibes</h5>
       <Swiper
         breakpoints={{
