@@ -1,4 +1,3 @@
-import Navbar from'./Navbar'
 import Slider from'./Slider'
 import Productsslider from'./Productsslider'
 import Category from'./Category'

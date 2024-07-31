@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light position-fixed top-0 w-100" style={{zIndex:"999", backgroundColor:"#fff"}}>
+      <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid">
           <button
             className="navbar-toggler"
