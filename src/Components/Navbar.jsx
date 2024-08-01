@@ -12,6 +12,10 @@ const Navbar = () => {
 
   return (
     <>
+    <div>
+      <p className="text-center " style={{fontSize:"13px",margin:"10px",backgroundColor:"#EEFDC2",boxSizing: 'border-box',}}>The Pre-Fall Sale: 20% off when you spend $200, 30% off when you spend $300. Applied at checkout.  Shop Women Shop Men
+</p>
+    </div>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid">
           <button

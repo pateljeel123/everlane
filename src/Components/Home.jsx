@@ -4,6 +4,7 @@ import Category from'./Category'
 import Discount from'./Discount'
 import Ocan from'./Ocan'
 import Everywhere from'./Everywhere'
+import Coolimg from './Coolimg'
 
 
 function Home() {
@@ -16,6 +17,7 @@ function Home() {
       <Productsslider/>
       <Category/>
       <Discount/>
+      <Coolimg/>
       <Ocan/>
       <Everywhere/>
     </div>

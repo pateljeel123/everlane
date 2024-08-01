@@ -1,0 +1,99 @@
+{
+  "products":[
+    {
+      "url": "https://www.everlane.com/products/womens-linen-way-high-drape-pant-black?collection=womens-best-sellers",
+      "image1": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/b271f000_9569/womens-linen-way-high-drape-pant-black",
+      "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/63ac850e_ab0d/womens-linen-way-high-drape-pant-black",
+      "name": "The Linen Way-High® Drape Pant",
+      "price": "₹ 11000",
+      "color": "Black"
+    },
+    {
+      "url": "https://www.everlane.com/products/womens-organic-cotton-box-cut-tee-white?collection=womens-best-sellers",
+      "image1": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/8e3f76d9_8d7e/womens-organic-cotton-box-cut-tee-white",
+      "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/0db958de_a7c9/womens-organic-cotton-box-cut-tee-white",
+      "name": "The Organic Cotton Box-Cut Tee",
+      "price": "₹ 2580",
+      "color": "White",
+      "special_offer": "3 for ₹ 5160",
+      "sustainability": "Organic Cotton",
+      "sustainability_2": "Cleaner Chemistry"
+    },
+    {
+      "url": "https://www.everlane.com/products/womens-linen-easy-pant-black?collection=womens-best-sellers",
+      "image1": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/e4c56215_9988/womens-linen-easy-pant-black",
+      "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/1f8c50a5_03d4/womens-linen-easy-pant-black",
+      "name": "The Linen Easy Pant",
+      "price": "₹ 7560",
+      "color": "Black"
+    },
+    {
+      "url": "https://www.everlane.com/products/womens-organic-cotton-slim-crew-tee-white?collection=womens-best-sellers",
+      "image1": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/ad87f3ab_d655/womens-organic-cotton-slim-crew-tee-white",
+      "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/0cf86053_d659/womens-organic-cotton-slim-crew-tee-white",
+      "name": "The Organic Cotton Slim Crew Tee",
+      "price": "₹ 2580",
+      "color": "White",
+      "special_offer": "3 for ₹ 5160",
+      "sustainability": "Organic Cotton"
+    },
+    {
+      "url": "https://www.everlane.com/products/womens-supima-jersey-riviera-dress-black?collection=womens-best-sellers",
+      "image1": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/cf7e732a_415b/womens-supima-jersey-riviera-dress-black",
+      "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/aeff8e4b_dea8/womens-supima-jersey-riviera-dress-black",
+      "name": "The Supima® Jersey Riviera Dress",
+      "price": "₹ 8420",
+      "color": "Black"
+    },
+    {
+      "url": "https://www.everlane.com/products/womens-boxy-oxford-black-white-stripe?collection=womens-best-sellers",
+      "image1": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/5bf574ff_c065/womens-boxy-oxford-black-white-stripe",
+      "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/f383bd39_f6df/womens-boxy-oxford-black-white-stripe",
+      "name": "The Boxy Oxford",
+      "price": "₹ 7560",
+      "color": "Black / White",
+      "sustainability": "Organic Cotton",
+      "sustainability_2": "Cleaner Chemistry"
+    },
+    {
+      "url": "https://www.everlane.com/products/womens-linen-cottage-shirt-dress-navy?collection=womens-best-sellers",
+      "image1": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/5316357e_df8c/womens-linen-cottage-shirt-dress-navy",
+      "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/c7d20032_9c2f/womens-linen-cottage-shirt-dress-navy",
+      "name": "The Frolic Dress in Linen",
+      "price": "₹ 12720",
+      "color": "Navy",
+      "new": "New!"
+    },
+    {
+      "url": "https://www.everlane.com/products/womens-organic-cotton-cutaway-tank-white?collection=womens-best-sellers",
+      "image1": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/647333c8_7a7b/womens-organic-cotton-cutaway-tank-white",
+      "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/48b5e199_ca40/womens-organic-cotton-cutaway-tank-white",
+      "name": "The Organic Cotton Cutaway Tank",
+      "price": "₹ 2580",
+      "color": "White",
+      "special_offer": "3 for ₹ 5160",
+      "sustainability": "Organic Cotton",
+      "sustainability_2": "Cleaner Chemistry"
+    },
+    {
+      "url": "https://www.everlane.com/products/womens-organic-cotton-weekend-tank-dress-black?collection=womens-best-sellers",
+      "image1": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/c6f6b0b6_deb4/womens-organic-cotton-weekend-tank-dress-black",
+      "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/4dcf6fda_3dbb/womens-organic-cotton-weekend-tank-dress-black",
+      "name": "The Organic Cotton Weekend Tank Dress",
+      "price": "₹ 4990",
+      "color": "Black",
+      "sustainability": "Organic Cotton",
+      "sustainability_2": "Cleaner Chemistry"
+    },
+    {
+      "url": "https://www.everlane.com/products/womens-linen-a-line-midi-dress-black?collection=womens-best-sellers",
+      "image1": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/b2c190d9_5b40/womens-linen-a-line-midi-dress-black",
+      "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/b3fc2363_0f14/womens-linen-a-line-midi-dress-black",
+      "name": "The Linen A-Line Midi Dress",
+      "price": "₹ 12720",
+      "color": "Black"
+    }
+  ]
+  
+ }
+ 

@@ -1,90 +1,169 @@
-* {
+*{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 50px;
-}
-
-.swiper {
+  }
+  .swiper {
     width: 100%;
     height: 100%;
-}
-
-.swiper-slide {
+  }
+  
+  .swiper-slide {
     text-align: center;
     font-size: 18px;
     background: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.swiper-slide img {
+  }
+  
+  .swiper-slide img {
     display: block;
     width: 100%;
     height: 100;
     object-fit: cover;
-}
-
-
-/* CustomNavbar.css */
-
-.navbar-brand {
+  }
+  /* CustomNavbar.css */
+  .navbar-brand {
     position: relative;
     text-align: center;
-    flex-grow: 1;
-    /* Allows the brand to take up available space */
-}
-
-.navbar-nav {
+    flex-grow: 1; /* Allows the brand to take up available space */
+  }
+  .navbar-nav {
     display: flex;
     align-items: center;
-}
-
-.discount {
+  }
+  
+  
+  .discount{
     background-color: #8AC89E;
     text-align: center;
     padding: 30px;
-}
-
-.text1 {
+  }
+  .text1{
     font-size: 30px;
-}
-
-.text2 {
+  }
+  .text2{
     font-size: 80px;
-}
-
-.shopnow {
+  }
+  .shopnow{
     padding: 8px;
     padding-left: 80px;
     padding-right: 80px;
     background-color: #222222;
     color: white;
-}
-
-.Card {
+  }
+  .Card{
+    height: 400px;
+    width: 300px;
+    position: absolute;
+  }
+  .Card .Img1{
+    position: absolute;
+    opacity: 1;
+    transition: 0.9s;
+  
+  }
+  .Card:hover .Img1{
+    opacity: 0;
+  
+  }
+  /* Ocan.css */
+  
+  
+  .ocean {
+    width: 1000px;
+    height: 100px;
+  }
+  .btn-t1{
+    color: black
+  }
+  
+  
+  .imagecool {
+    height: 600px;
+  }
+  
+  
+  .color1 {
+    color: #fff;
+  }
+  
+  
+  .builder-block-btn {
+    background-color: #fff;
+    padding: 8px;
+    border: none;
+    transition: all 0.4S;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  
+  .builder-block-btn:hover {
+    color: #fff;
+    background-color: #000;
+  }
+  .jeel{
+    padding: 50px;
+  }
+  /* Productsslider.css */
+  .jeel {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+  }
+  
+  .image-container {
+    position: relative;
+    text-align: center;
+  }
+  
+  .image-container img {
+    width: 100%;
+  }
+  
+  .image-container p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+  }
+  /* .cardjeel{
     height: 400px;
     width: 300px;
     position: absolute;
 }
-
-.Card .Img1 {
+.cardjeel .Img1{
     position: absolute;
     opacity: 1;
     transition: 0.9s;
-}
 
-.Card:hover .Img1 {
+}
+.cardjeel:hover .Img1{
     opacity: 0;
+
+} */
+
+.t-shrt{
+
+  background-image: url("https://media.everlane.com/image/upload/c_scale,dpr_2.0,f_auto,q_auto,w_auto/c_limit,w_1900/v1/i/89f45c02_bb65.jpg");
+  height: 780px;
+  background-size: cover;
+  
+  text-align: center;
+  justify-content: center;
+
+  
+
+  /* width: 100%; */
 }
-
-
-/* Ocan.css */
-
-.ocean {
-    width: 1000px;
-    height: 100px;
+.t-shrt-h1{
+  font-size: 80px;
+ padding-top: 19%; 
+ color: #ffffff;
 }
+.t-shrt-p{
+  font-size:  2em;
+ color: #ffffff;
 
-.btn-t1 {
-    color: black
 }
