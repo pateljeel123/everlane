@@ -52,21 +52,70 @@
     background-color: #222222;
     color: white;
   }
-  .Card{
+  /* .cardjeel{
     height: 400px;
     width: 300px;
-    position: absolute;
+    display: flex;
   }
-  .Card .Img1{
+  .cardjeel .Img1{
     position: absolute;
     opacity: 1;
     transition: 0.9s;
   
   }
-  .Card:hover .Img1{
+  .cardjeel:hover .Img1{
     opacity: 0;
   
-  }
+  } */
+
+
+
+  /* Productpage.css */
+
+.cardjeel {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.cardjeel:hover {
+  transform: scale(1.05);
+}
+
+.cardjeel img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: opacity 0.9s ease;
+}
+
+.cardjeel .Img1 {
+  opacity: 1;
+}
+
+.cardjeel .Img2 {
+  opacity: 0;
+}
+
+.cardjeel:hover .Img1 {
+  opacity: 0;
+}
+
+.cardjeel:hover .Img2 {
+  opacity: 1;
+}
+
   /* Ocan.css */
   
   
@@ -81,38 +130,39 @@
   
   .imagecool {
     height: 600px;
-  }
-  
-  
-  .color1 {
+}
+
+
+.color1 {
     color: #fff;
-  }
-  
-  
-  .builder-block-btn {
+}
+
+
+.builder-block-btn {
     background-color: #fff;
     padding: 8px;
     border: none;
     transition: all 0.4S;
     padding-left: 20px;
     padding-right: 20px;
-  }
-  
-  
-  .builder-block-btn:hover {
+}
+
+
+.builder-block-btn:hover {
     color: #fff;
     background-color: #000;
-  }
+}
+
   .jeel{
     padding: 50px;
   }
   /* Productsslider.css */
-  .jeel {
-    width: 100%;
-    padding: 20px;
-    box-sizing: border-box;
-    background-color: #ffffff;
-  }
+    .jeel {
+      width: 100%;
+      padding: 20px;
+      box-sizing: border-box;
+      background-color: #ffffff;
+    }
   
   .image-container {
     position: relative;
@@ -166,4 +216,57 @@
   font-size:  2em;
  color: #ffffff;
 
+}
+.video-hidden {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+.video-visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.video-element::-webkit-media-controls {
+  display: none !important;
+}
+
+.video-element::-moz-media-controls {
+  display: none !important;
+}
+
+.video-element::-ms-media-controls {
+  display: none !important;
+}
+
+.video-element {
+  width: 100%;
+  height: auto;
+}
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Full viewport height */
+  overflow: hidden;
+}
+
+.video-hidden {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+.video-visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the video covers the container */
 }

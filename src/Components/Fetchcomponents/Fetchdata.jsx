@@ -1,38 +1,32 @@
-// import axios from "axios";
-// import  { useEffect, useState } from "react";
+import axios from "axios";
+import { useEffect, useState } from "react";
 
-// function Productpage() {
-//   const [data, setdata] = useState([]);
+function Productpage() {
+  const [data, setData] = useState([]);
 
-//   const datafetch = () => {
-//     axios
-//       .get("http://localhost:3000/products")
-//       .then((res) => {
-//         setdata(res.data);
-//       })
-//       .catch((err) => console.log(err));
-//   };
+  const dataFetch = () => {
+    axios
+      .get("http://localhost:3000/products")
+      .then((res) => {
+        setData(res.data);
+      })
+      .catch((err) => console.log(err));
+  };
 
-//   useEffect(() => {
-//     datafetch();
-//   }, []);
+  useEffect(() => {
+    dataFetch();
+  }, []);
 
-//   return (
-//     <div>
-//       {data.map((e) => {
-//         return (
-         
-//            <>
-//            <div className="cardjeel">
-//             <img  className='Img1' style={{height:"500px"}} src={e.image1} alt="" />
-//             <img  className='Img2' style={{height:"500px"}} src={e.image2} alt="" />
-//             </div>
-//            </>
-       
-//         );
-//       })}
-//     </div>
-//   );
-// }
+  return (
+    <div className="d-flex flex-wrap justify-content-center">
+      {data.map((e) => (
+        <div key={e.id} className="cardjeel">
+          <img className="Img1" src={e.image1} alt="Product Image 1" />
+          <img className="Img2" src={e.image2} alt="Product Image 2" />
+        </div>
+      ))}
+    </div>
+  );
+}
 
-// export default Productpage;
+export default Productpage;

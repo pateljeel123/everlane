@@ -1,5 +1,6 @@
 
- 
+
+import React from 'react'
 
 
 function Coolimg() {
@@ -14,7 +15,7 @@ function Coolimg() {
                         </div>
                     </div>
                     <div className="col-4 p-1">
-                        <div className="d-fqlex flex-column justify-content-center align-items-center" style={{ backgroundImage: "url(https://media.everlane.com/image/upload/c_scale,dpr_1.0,f_auto,q_auto,w_auto/c_limit,w_1900/v1/i/23f2db31_321d.jpg)", height: "740px", backgroundSize: "cover" }} >
+                        <div className="d-flex flex-column justify-content-center align-items-center" style={{ backgroundImage: "url(https://media.everlane.com/image/upload/c_scale,dpr_1.0,f_auto,q_auto,w_auto/c_limit,w_1900/v1/i/23f2db31_321d.jpg)", height: "740px", backgroundSize: "cover" }} >
                             <h1 className='color1'>Crisp & Cool</h1>
                             <button  className='builder-block-btn'>SHOP LINEN</button>
                         </div>

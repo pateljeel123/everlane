@@ -5,6 +5,7 @@ import About from './Components/Navigation.jsx/About';
 import Home from './Components/Home';
 import Men from './Components/Navigation.jsx/Men';
 import Women from './Components/Navigation.jsx/Women';
+import Fetchdata from './Components/Fetchcomponents/Fetchdata'
 
 function Allroute() {
   return (
@@ -14,6 +15,8 @@ function Allroute() {
         <Route path="/about" element={<About />} />
         <Route path="/men" element={<Men />} />
         <Route path="/women" element={<Women />} />
+        <Route path="/productdata" element={<Fetchdata/>} />
+        
       </Routes>
     </div>
   );

@@ -1,5 +1,4 @@
-import React from 'react';
-
+ 
 function Category() {
   const categories = [
     { src: "https://media.everlane.com/image/upload/c_scale,dpr_1.0,f_auto,q_auto,w_auto/c_limit,w_1900/v1/i/14a83ca4_7188.jpg", label: "DRESSES" },

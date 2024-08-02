@@ -13,7 +13,7 @@ function Routeis() {
       <Route path="/about" element={<About />} />
       <Route path="/home" element={<Home />} />
       <Route path="/men" element={<Men />} />
-      <Route path="/women" element={<Women />} />
+      <Route path="/home" element={<Women />} />
       {/* <Route path="/productdata" element={<Fetchdata />} /> */}
       <Route path='/productdata' element={<Fetchdata/>}></Route>
     </Routes>

@@ -1,8 +1,9 @@
+import Home from "../Home"
 
 function Women() {
   return (
     <div>
-      <h1>this is women page</h1>
+      <Home/>
     </div>
   )
 }

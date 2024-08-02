@@ -15,9 +15,9 @@ function Home() {
          
       <Slider/>
       <Productsslider/>
+      <Coolimg/>
       <Category/>
       <Discount/>
-      <Coolimg/>
       <Ocan/>
       <Everywhere/>
     </div>
