@@ -1,5 +1,6 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
+import Sidebar from "./Sidebar";
 
 function Productpage() {
   const [data, setData] = useState([]);
@@ -18,13 +19,24 @@ function Productpage() {
   }, []);
 
   return (
-    <div className="d-flex flex-wrap justify-content-center">
-      {data.map((e) => (
-        <div key={e.id} className="cardjeel">
-          <img className="Img1" src={e.image1} alt="Product Image 1" />
-          <img className="Img2" src={e.image2} alt="Product Image 2" />
+    <div className="container  mt-4" >
+      <div className="row">
+        <Sidebar/>
+        <div className="col-12 col-md-8 " style={{width:"80%",}}>
+          <div style={{display:"grid",gridTemplateColumns:"repeat(3,1fr)"}} className="d-flex flex-wrap  justify-content-center">
+            {data.map((product) => (
+              <div key={product.id} className="product-card " style={{border:"none"}}>
+                <img  className="Img1 " src={product.image1} alt="Product Image 1" />
+                <img className="Img2" src={product.image2} alt="Product Image 1" />
+                <div className="product-info">
+                  <h6>{product.name}</h6>
+                  <div className="price">₹ {product.price}</div>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
-      ))}
+      </div>
     </div>
   );
 }

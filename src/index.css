@@ -80,16 +80,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
   margin: 10px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
+   
 }
 
-.cardjeel:hover {
-  transform: scale(1.05);
-}
+ 
 
 .cardjeel img {
   position: absolute;
@@ -97,7 +92,7 @@
   width: 100%;
   object-fit: cover;
   border-radius: 10px;
-  transition: opacity 0.9s ease;
+  
 }
 
 .cardjeel .Img1 {
@@ -115,6 +110,268 @@
 .cardjeel:hover .Img2 {
   opacity: 1;
 }
+
+.container {
+  margin-top: 20px;
+}
+
+.sidebar {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.filter-group h5 {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.filter-group ul {
+  list-style: none;
+  padding: 0;
+}
+
+.filter-group li {
+  margin-bottom: 5px;
+}
+
+.filter-group input {
+  margin-right: 10px;
+}
+
+.product-card {
+  position: relative;
+  width: 100vh;
+  max-width: 1000px;
+  height: 500px;
+  margin: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid #eaeaea;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.product-card img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.product-card .Img1 {
+  opacity: 1;
+}
+
+.product-card .Img2 {
+  opacity: 0;
+}
+
+.product-card:hover .Img1 {
+  opacity: 0;
+}
+
+.product-card:hover .Img2 {
+  opacity: 1;
+}
+
+.product-details {
+  position: relative;
+  background: rgba(255, 255, 255, 0.9);
+  color: #333;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+}
+
+ .container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sidebar {
+ 
+  padding: 10px;
+  border-right: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .sidebar {
+    width: 25%;
+    margin-bottom: 0;
+  }
+}
+
+.filter-group {
+  margin-bottom: 20px;
+}
+
+.filter-group h5 {
+  margin-bottom: 10px;
+}
+
+.filter-group ul {
+  list-style: none;
+  padding: 0;
+}
+
+.filter-group ul li {
+  margin-bottom: 10px;
+}
+
+.product-card {
+  width: 30%; /* 30% width for each product card to fit 3 in a row */
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  text-align: center;
+  position: relative;
+}
+
+.cardjeel {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.cardjeel img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.cardjeel .Img1 {
+  opacity: 1;
+}
+
+.cardjeel .Img2 {
+  opacity: 0;
+}
+
+.cardjeel:hover .Img1 {
+  opacity: 0;
+}
+
+.cardjeel:hover .Img2 {
+  opacity: 1;
+}
+
+.product-info {
+  margin-top: 10px;
+}
+
+.product-info h6 {
+  margin-bottom: 5px;
+  font-size: 24px; /* Larger font size for better visibility */
+  font-weight: bold;
+}
+
+.product-info .price {
+  font-size: 20px; /* Larger font size for better visibility */
+  color: #555;
+}
+
+
+/* sidebar */
+ 
+.sidebar-section {
+  margin-bottom: 20px;
+}
+
+.sidebar-section h6 {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.sidebar-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar-section ul li {
+  margin-bottom: 10px;
+}
+
+.color-box {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.color-box.black { background-color: black; }
+.color-box.blue { background-color: blue; }
+.color-box.brown { background-color: brown; }
+.color-box.green { background-color: green; }
+.color-box.grey { background-color: grey; }
+.color-box.multicolor { background-color: #ccc; }
+.color-box.tan { background-color: tan; }
+.color-box.white { background-color: white; }
+
+
+/* Sidebar.css */
+
+.sidebar {
+  border-right: 1px solid #ccc;
+  padding: 20px;
+}
+
+.sidebar h6 {
+  font-weight: bold;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin: 5px 0;
+  cursor: pointer;
+  border-radius: 50px; /* Make the background round */
+  padding: 5px 10px; /* Add some padding */
+}
+
+.sidebar ul li:hover {
+  background-color: #f0f0f0; /* Change to any color you prefer */
+}
+
+
+/* Productpage.css */
+ 
+
+
+/* .product-details {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.product-name {
+  font-weight: bold;
+}
+
+.product-price {
+  color: green;
+}
+
+.product-special-offer {
+  color: red;
+}
+
+.product-sustainability {
+  font-size: 0.9em;
+  color: gray;
+} */
+
 
   /* Ocan.css */
   

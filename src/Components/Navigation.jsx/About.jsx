@@ -102,7 +102,7 @@ function About() {
           <div className="col-12 text-center">
             <p>Our Prices</p>
             <h1>Radically Transparent.</h1>
-            <p style={{ fontSize: "0.9em" }}>We believe our customers have a right to know how much their clothes cost to make. We reveal the true costs behind all of our products—from materials to labor to transportation—then offer  them to you, minus the traditional retail markup</p>
+            <p style={{ fontSize: "0.9em" }}>We believe our customers have a right to know how much their clothes cost to make. We reveal the true costs behind all of our products—from materials to labor to transportation—then offer them to you, minus the traditional retail markup</p>
           </div>
         </div>
       </div>
