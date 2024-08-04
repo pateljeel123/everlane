@@ -1,17 +1,21 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import Sidebar from "./Sidebar";
 
-function Productpage() {
+function Fetchdata() {
   const [data, setData] = useState([]);
 
   const dataFetch = () => {
     axios
       .get("http://localhost:3000/products")
       .then((res) => {
+        console.log("Fetched data:", res.data); // Log fetched data
         setData(res.data);
       })
-      .catch((err) => console.log(err));
+      .catch((err) => {
+        console.error("Error fetching data:", err);
+      });
   };
 
   useEffect(() => {
@@ -19,18 +23,24 @@ function Productpage() {
   }, []);
 
   return (
-    <div className="container  mt-4" >
+    <div className="container-fluid mt-4">
       <div className="row">
-        <Sidebar/>
-        <div className="col-12 col-md-8 " style={{width:"80%",}}>
-          <div style={{display:"grid",gridTemplateColumns:"repeat(3,1fr)"}} className="d-flex flex-wrap  justify-content-center">
+        <div className="col-12 col-md-3">
+          <Sidebar />
+        </div>
+        <div className="col-12 col-md-9">
+          <div className="d-flex flex-wrap justify-content-center">
             {data.map((product) => (
-              <div key={product.id} className="product-card " style={{border:"none"}}>
-                <img  className="Img1 " src={product.image1} alt="Product Image 1" />
-                <img className="Img2" src={product.image2} alt="Product Image 1" />
-                <div className="product-info">
-                  <h6>{product.name}</h6>
-                  <div className="price">₹ {product.price}</div>
+              <div key={product.id} className="">
+                <Link to={`/description/${product.id}`}>
+                  <div className="cardjeel">
+                    <img src={product.image1} alt={product.name} className="Img1" />
+                    <img src={product.image2} alt={product.name} className="Img2" />
+                  </div>
+                </Link>
+                <div className="product-details">
+                  <p>{product.name}</p>
+                  <p>${product.price}</p>
                 </div>
               </div>
             ))}
@@ -41,4 +51,4 @@ function Productpage() {
   );
 }
 
-export default Productpage;
+export default Fetchdata;

@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 function Everywhere() {
   return (
     <div className="container my-5 text-center">
-      <div className="row g-5">
+      <div className="row  ">
         <div className="col-md-6">
-          <div className="mb-3">
+          <div className=" ">
             <h2 className="h4">Everlane Everywhere</h2>
           </div>
           <img

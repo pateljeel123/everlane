@@ -1,76 +1,434 @@
+
 *{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 50px;
-  }
-  .swiper {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 50px;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100;
+  object-fit: cover;
+}
+/* CustomNavbar.css */
+.navbar-brand {
+  position: relative;
+  text-align: center;
+  flex-grow: 1; /* Allows the brand to take up available space */
+}
+.navbar-nav {
+  display: flex;
+  align-items: center;
+}
+
+
+.discount{
+  background-color: #8AC89E;
+  text-align: center;
+  padding: 30px;
+}
+.text1{
+  font-size: 30px;
+}
+.text2{
+  font-size: 80px;
+}
+.shopnow{
+  padding: 8px;
+  padding-left: 80px;
+  padding-right: 80px;
+  background-color: #222222;
+  color: white;
+}
+/* .cardjeel{
+  height: 400px;
+  width: 300px;
+  display: flex;
+}
+.cardjeel .Img1{
+  position: absolute;
+  opacity: 1;
+  transition: 0.9s;
+
+}
+.cardjeel:hover .Img1{
+  opacity: 0;
+
+} */
+
+
+
+/* Productpage.css */
+
+
+
+.container {
+margin-top: 20px;
+}
+
+.sidebar {
+background-color: #f8f9fa;
+padding: 20px;
+border-radius: 10px;
+}
+
+
+.filter-group h5 {
+margin-bottom: 10px;
+font-weight: bold;
+}
+
+.filter-group ul {
+list-style: none;
+padding: 0;
+}
+
+.filter-group li {
+margin-bottom: 5px;
+}
+
+.filter-group input {
+margin-right: 10px;
+}
+
+
+
+
+.product-details {
+position: relative;
+background: rgba(255, 255, 255, 0.9);
+color: #333;
+text-align: center;
+
+ 
+width: 100%;
+}
+
+.container {
+display: flex;
+flex-wrap: wrap;
+}
+
+.sidebar {
+
+padding: 10px;
+border-right: 1px solid #ddd;
+margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+.sidebar {
+  width: 25%;
+  margin-bottom: 0;
+}
+}
+
+.filter-group {
+margin-bottom: 20px;
+}
+
+.filter-group h5 {
+margin-bottom: 10px;
+}
+
+.filter-group ul {
+list-style: none;
+padding: 0;
+}
+
+.filter-group ul li {
+margin-bottom: 10px;
+}
+
+.product-card {
+width: 30%; /* 30% width for each product card to fit 3 in a row */
+margin-bottom: 20px;
+padding: 10px;
+border: 1px solid #ddd;
+background-color: #fff;
+text-align: center;
+position: relative;
+}
+
+
+.product-info {
+margin-top: 10px;
+}
+
+.product-info h6 {
+margin-bottom: 5px;
+font-size: 24px; /* Larger font size for better visibility */
+font-weight: bold;
+}
+
+.product-info .price {
+font-size: 20px; /* Larger font size for better visibility */
+color: #555;
+}
+
+
+/* sidebar */
+
+.sidebar-section {
+margin-bottom: 20px;
+}
+
+.sidebar-section h6 {
+margin-bottom: 10px;
+font-weight: bold;
+}
+
+.sidebar-section ul {
+list-style: none;
+padding: 0;
+}
+
+.sidebar-section ul li {
+margin-bottom: 10px;
+}
+
+.color-box {
+display: inline-block;
+width: 20px;
+height: 20px;
+margin-right: 10px;
+}
+
+.color-box.black { background-color: black; }
+.color-box.blue { background-color: blue; }
+.color-box.brown { background-color: brown; }
+.color-box.green { background-color: green; }
+.color-box.grey { background-color: grey; }
+.color-box.multicolor { background-color: #ccc; }
+.color-box.tan { background-color: tan; }
+.color-box.white { background-color: white; }
+
+
+/* Sidebar.css */
+
+.sidebar {
+border-right: 1px solid #ccc;
+margin-left: 250px;
+}
+
+.sidebar h6 {
+font-weight: bold;
+}
+
+.sidebar ul {
+list-style-type: none;
+padding: 0;
+}
+
+.sidebar ul li {
+margin: 5px 0;
+cursor: pointer;
+border-radius: 50px; /* Make the background round */
+padding: 5px 10px; /* Add some padding */
+}
+
+.sidebar ul li:hover {
+background-color: #f0f0f0; /* Change to any color you prefer */
+}
+
+
+/* Productpage.css */
+
+
+
+/* .product-details {
+text-align: center;
+margin-top: 10px;
+}
+
+.product-name {
+font-weight: bold;
+}
+
+.product-price {
+color: green;
+}
+
+.product-special-offer {
+color: red;
+}
+
+.product-sustainability {
+font-size: 0.9em;
+color: gray;
+} */
+
+
+/* Ocan.css */
+
+
+
+.ocean {
+  width: 1000px;
+  height: 100px;
+}
+.btn-t1{
+  color: black
+}
+
+
+.imagecool {
+  height: 600px;
+}
+
+
+.color1 {
+  color: #fff;
+}
+
+
+.builder-block-btn {
+  background-color: #fff;
+  padding: 8px;
+  border: none;
+  transition: all 0.4S;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+.builder-block-btn:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+.jeel{
+  padding: 50px;
+}
+/* Productsslider.css */
+  .jeel {
     width: 100%;
-    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #ffffff;
   }
-  
-  .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100;
-    object-fit: cover;
-  }
-  /* CustomNavbar.css */
-  .navbar-brand {
-    position: relative;
-    text-align: center;
-    flex-grow: 1; /* Allows the brand to take up available space */
-  }
-  .navbar-nav {
-    display: flex;
-    align-items: center;
-  }
-  
-  
-  .discount{
-    background-color: #8AC89E;
-    text-align: center;
-    padding: 30px;
-  }
-  .text1{
-    font-size: 30px;
-  }
-  .text2{
-    font-size: 80px;
-  }
-  .shopnow{
-    padding: 8px;
-    padding-left: 80px;
-    padding-right: 80px;
-    background-color: #222222;
-    color: white;
-  }
-  /* .cardjeel{
-    height: 400px;
-    width: 300px;
-    display: flex;
-  }
-  .cardjeel .Img1{
-    position: absolute;
-    opacity: 1;
-    transition: 0.9s;
-  
-  }
-  .cardjeel:hover .Img1{
-    opacity: 0;
-  
-  } */
+
+.image-container {
+  position: relative;
+  text-align: center;
+}
+
+.image-container img {
+  width: 100%;
+}
+
+.image-container p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #333;
+}
+/* .cardjeel{
+  height: 400px;
+  width: 300px;
+  position: absolute;
+}
+.cardjeel .Img1{
+  position: absolute;
+  opacity: 1;
+  transition: 0.9s;
+
+}
+.cardjeel:hover .Img1{
+  opacity: 0;
+
+} */
+
+.t-shrt{
+
+background-image: url("https://media.everlane.com/image/upload/c_scale,dpr_2.0,f_auto,q_auto,w_auto/c_limit,w_1900/v1/i/89f45c02_bb65.jpg");
+height: 780px;
+background-size: cover;
+
+text-align: center;
+justify-content: center;
 
 
 
-  /* Productpage.css */
+/* width: 100%; */
+}
+.t-shrt-h1{
+font-size: 80px;
+padding-top: 19%; 
+color: #ffffff;
+}
+.t-shrt-p{
+font-size:  2em;
+color: #ffffff;
+
+}
+.video-hidden {
+opacity: 0;
+visibility: hidden;
+transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+.video-visible {
+opacity: 1;
+visibility: visible;
+}
+
+.video-element::-webkit-media-controls {
+display: none !important;
+}
+
+.video-element::-moz-media-controls {
+display: none !important;
+}
+
+.video-element::-ms-media-controls {
+display: none !important;
+}
+
+.video-element {
+width: 100%;
+height: auto;
+}
+.video-container {
+position: relative;
+width: 100%;
+height: 100vh; /* Full viewport height */
+overflow: hidden;
+}
+
+.video-hidden {
+opacity: 0;
+visibility: hidden;
+transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+.video-visible {
+opacity: 1;
+visibility: visible;
+}
+
+.video-container video {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+object-fit: cover; /* Ensures the video covers the container */
+}
+
+
 
 .cardjeel {
   position: relative;
@@ -111,419 +469,189 @@
   opacity: 1;
 }
 
-.container {
-  margin-top: 20px;
-}
-
-.sidebar {
-  background-color: #f8f9fa;
-  padding: 20px;
-  border-radius: 10px;
-}
-
-.filter-group h5 {
-  margin-bottom: 10px;
-  font-weight: bold;
-}
-
-.filter-group ul {
-  list-style: none;
-  padding: 0;
-}
-
-.filter-group li {
-  margin-bottom: 5px;
-}
-
-.filter-group input {
-  margin-right: 10px;
-}
-
-.product-card {
+.cardjeel {
   position: relative;
-  width: 100vh;
-  max-width: 1000px;
-  height: 500px;
-  margin: 10px;
+  width: 600px; /* Set width to 500px */
+  height: 450px; /* Set height to 500px */
+  margin: 15px;
   border-radius: 10px;
-  overflow: hidden;
   border: 1px solid #eaeaea;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  align-items: center; /* Center content horizontally */
+  cursor: pointer;
+  overflow: hidden; /* Ensure images do not overflow */
+  background-color: #fff; /* Background color of the card */
 }
 
-.product-card img {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
+.cardjeel img {
+  position: absolute; /* Stack images on top of each other */
+  width: 100%; /* Full width of the card */
+  height: 100%; /* Full height of the card */
+  object-fit: cover; /* Ensure image covers the area without distortion */
+  transition: visibility 0.1s ease; /* Quick transition for visibility changes */
 }
 
-.product-card .Img1 {
-  opacity: 1;
+.cardjeel .Img1 {
+  visibility: visible; /* Img1 is visible by default */
+  z-index: 1; /* Ensure Img1 is below Img2 */
 }
 
-.product-card .Img2 {
-  opacity: 0;
+.cardjeel .Img2 {
+  visibility: hidden; /* Img2 is hidden by default */
+  z-index: 2; /* Ensure Img2 is above Img1 */
 }
 
-.product-card:hover .Img1 {
-  opacity: 0;
+.cardjeel:hover .Img1 {
+  visibility: hidden; /* Img1 hides on hover */
 }
 
-.product-card:hover .Img2 {
-  opacity: 1;
+.cardjeel:hover .Img2 {
+  visibility: visible; /* Img2 shows on hover */
 }
 
-.product-details {
+.cardjeel .product-details {
   position: relative;
   background: rgba(255, 255, 255, 0.9);
   color: #333;
   text-align: center;
   padding: 10px;
   width: 100%;
+  z-index: 3; /* Ensure it is above the images */
+}
+footer {
+  background-color: #f8f9fa;
+  padding: 20px 0;
+  border-top: 1px solid #ddd;
 }
 
- .container {
-  display: flex;
-  flex-wrap: wrap;
+footer h6 {
+  margin-bottom: 15px;
+  font-weight: bold;
 }
 
-.sidebar {
- 
-  padding: 10px;
-  border-right: 1px solid #ddd;
-  margin-bottom: 20px;
+footer ul {
+  padding-left: 0;
 }
 
-@media (min-width: 768px) {
-  .sidebar {
-    width: 25%;
-    margin-bottom: 0;
-  }
-}
-
-.filter-group {
-  margin-bottom: 20px;
-}
-
-.filter-group h5 {
+footer ul li {
+  list-style-type: none;
   margin-bottom: 10px;
 }
 
-.filter-group ul {
-  list-style: none;
-  padding: 0;
+footer ul li a {
+  color: #000;
+  text-decoration: none;
 }
 
-.filter-group ul li {
-  margin-bottom: 10px;
+footer ul li a:hover {
+  text-decoration: underline;
 }
 
-.product-card {
-  width: 30%; /* 30% width for each product card to fit 3 in a row */
-  margin-bottom: 20px;
-  padding: 10px;
-  border: 1px solid #ddd;
-  background-color: #fff;
-  text-align: center;
-  position: relative;
-}
-
-.cardjeel {
-  position: relative;
-  width: 100%;
-  height: 500px;
+footer form {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 10px;
 }
 
-.cardjeel img {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  border-radius: 10px;
-}
-
-.cardjeel .Img1 {
-  opacity: 1;
-}
-
-.cardjeel .Img2 {
-  opacity: 0;
-}
-
-.cardjeel:hover .Img1 {
-  opacity: 0;
-}
-
-.cardjeel:hover .Img2 {
-  opacity: 1;
-}
-
-.product-info {
-  margin-top: 10px;
-}
-
-.product-info h6 {
-  margin-bottom: 5px;
-  font-size: 24px; /* Larger font size for better visibility */
-  font-weight: bold;
-}
-
-.product-info .price {
-  font-size: 20px; /* Larger font size for better visibility */
-  color: #555;
-}
-
-
-/* sidebar */
- 
-.sidebar-section {
-  margin-bottom: 20px;
-}
-
-.sidebar-section h6 {
-  margin-bottom: 10px;
-  font-weight: bold;
-}
-
-.sidebar-section ul {
-  list-style: none;
-  padding: 0;
-}
-
-.sidebar-section ul li {
-  margin-bottom: 10px;
-}
-
-.color-box {
-  display: inline-block;
-  width: 20px;
-  height: 20px;
+footer form .form-control {
+  width: auto;
   margin-right: 10px;
 }
 
-.color-box.black { background-color: black; }
-.color-box.blue { background-color: blue; }
-.color-box.brown { background-color: brown; }
-.color-box.green { background-color: green; }
-.color-box.grey { background-color: grey; }
-.color-box.multicolor { background-color: #ccc; }
-.color-box.tan { background-color: tan; }
-.color-box.white { background-color: white; }
-
-
-/* Sidebar.css */
-
-.sidebar {
-  border-right: 1px solid #ccc;
-  padding: 20px;
+footer .list-unstyled.d-flex {
+  flex-wrap: wrap;
 }
 
-.sidebar h6 {
-  font-weight: bold;
+footer .list-unstyled.d-flex li {
+  margin-bottom: 10px;
 }
-
-.sidebar ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.sidebar ul li {
-  margin: 5px 0;
-  cursor: pointer;
-  border-radius: 50px; /* Make the background round */
-  padding: 5px 10px; /* Add some padding */
-}
-
-.sidebar ul li:hover {
-  background-color: #f0f0f0; /* Change to any color you prefer */
-}
-
-
-/* Productpage.css */
  
+/* discription */
+.description-page {
+  display: flex;
+  gap: 10px;
+  padding-top: 70px;
+  width: 1900px;
+  
+}
 
+.images1 {
+  
+  width: 7800px;
+  gap: 10px;
+  margin-left: 0px;
+  padding: 10px;
+}
 
-/* .product-details {
-  text-align: center;
-  margin-top: 10px;
+.main-image {
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+}
+
+.product-details {
+  padding: 0%;
+  margin: 0%;
+}
+
+.product-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  padding: 0%;
+  margin: 0%;
 }
 
 .product-name {
-  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 
 .product-price {
-  color: green;
+  font-size: 18px;
+  margin-bottom: 20px;
 }
 
-.product-special-offer {
-  color: red;
+.add-to-bag {
+  background-color: black;
+  color: white;
+  padding: 10px 200px;
+  border: none;
+  cursor: pointer;
 }
 
-.product-sustainability {
-  font-size: 0.9em;
-  color: gray;
-} */
-
-
-  /* Ocan.css */
-  
-  
-  .ocean {
-    width: 1000px;
-    height: 100px;
-  }
-  .btn-t1{
-    color: black
-  }
-  
-  
-  .imagecool {
-    height: 600px;
+.product-description {
+  margin-top: 20px;
+}
+.reviews {
+  margin-top: 20px;
 }
 
-
-.color1 {
-    color: #fff;
+.review-summary {
+  margin-bottom: 10px;
 }
 
-
-.builder-block-btn {
-    background-color: #fff;
-    padding: 8px;
-    border: none;
-    transition: all 0.4S;
-    padding-left: 20px;
-    padding-right: 20px;
+.overall-rating {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
-
-.builder-block-btn:hover {
-    color: #fff;
-    background-color: #000;
+.review-breakdown {
+  margin-top: 10px;
 }
 
-  .jeel{
-    padding: 50px;
-  }
-  /* Productsslider.css */
-    .jeel {
-      width: 100%;
-      padding: 20px;
-      box-sizing: border-box;
-      background-color: #ffffff;
-    }
-  
-  .image-container {
-    position: relative;
-    text-align: center;
-  }
-  
-  .image-container img {
-    width: 100%;
-  }
-  
-  .image-container p {
-    margin-top: 10px;
-    font-size: 14px;
-    color: #333;
-  }
-  /* .cardjeel{
-    height: 400px;
-    width: 300px;
-    position: absolute;
-}
-.cardjeel .Img1{
-    position: absolute;
-    opacity: 1;
-    transition: 0.9s;
-
-}
-.cardjeel:hover .Img1{
-    opacity: 0;
-
-} */
-
-.t-shrt{
-
-  background-image: url("https://media.everlane.com/image/upload/c_scale,dpr_2.0,f_auto,q_auto,w_auto/c_limit,w_1900/v1/i/89f45c02_bb65.jpg");
-  height: 780px;
-  background-size: cover;
-  
-  text-align: center;
-  justify-content: center;
-
-  
-
-  /* width: 100%; */
-}
-.t-shrt-h1{
-  font-size: 80px;
- padding-top: 19%; 
- color: #ffffff;
-}
-.t-shrt-p{
-  font-size:  2em;
- color: #ffffff;
-
-}
-.video-hidden {
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity 0.5s ease, visibility 0.5s ease;
+.review-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
-.video-visible {
-  opacity: 1;
-  visibility: visible;
+.review-stars {
+  font-size: 18px;
 }
 
-.video-element::-webkit-media-controls {
-  display: none !important;
-}
-
-.video-element::-moz-media-controls {
-  display: none !important;
-}
-
-.video-element::-ms-media-controls {
-  display: none !important;
-}
-
-.video-element {
-  width: 100%;
-  height: auto;
-}
-.video-container {
-  position: relative;
-  width: 100%;
-  height: 100vh; /* Full viewport height */
-  overflow: hidden;
-}
-
-.video-hidden {
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity 0.5s ease, visibility 0.5s ease;
-}
-
-.video-visible {
-  opacity: 1;
-  visibility: visible;
-}
-
-.video-container video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* Ensures the video covers the container */
+.review-count {
+  font-size: 16px;
 }

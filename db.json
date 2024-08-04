@@ -1,6 +1,58 @@
 {
-  "products":[
+  "reviews": [
     {
+      "reviewer": "Ofelia",
+      "rating": 4,
+      "comment": "The best summer linen pants. I love these pants. I wore them all over Europe this summer and even on long plane rides and they are so comfortable and look very chic. Would definitely recommend.",
+      "date": "11 hours ago",
+      "product_url": "https://www.everlane.com/products/womens-linen-way-high-drape-update-pant-cornstalk-chambray"
+    },
+    {
+      "reviewer": "Nancy Sommer",
+      "rating": 3,
+      "comment": "Summer staple. These pants look great and can be dressed up or down. They elevate any look. Lightweight but not see through. Lots of compliments.",
+      "date": "4 days ago",
+      "product_url": "https://www.everlane.com/products/womens-linen-way-high-drape-pant-bone"
+    },
+    {
+      "reviewer": "Sandy A",
+      "rating": 5,
+      "comment": "So comfortable! I love the light weight fabric and the fact that this pant gives lots of leg room while being fitted and smooth in the waist area. It’s so perfect for hot summer days or nights!",
+      "date": "16 days ago",
+      "product_url": "https://www.everlane.com/products/womens-linen-way-high-drape-pant-white-blue"
+    },
+    {
+      "reviewer": "Abcarolyn",
+      "rating": 4,
+      "comment": "Cool and stylish. Was unsure if I would keep these as I heard it was better to have linen combined with another material, but with these hot summer days, these were perfect! Love the high waist and the wide legs though I do wear these with a higher heel!",
+      "date": "24 days ago",
+      "product_url": "https://www.everlane.com/products/womens-linen-way-high-drape-pant-trench-coat-khaki"
+    },
+    {
+      "reviewer": "Lucky penny",
+      "rating": 5,
+      "comment": "The ideal summer pant. I've found my ideal summer pant and these are it. I don't love wearing shorts or dresses, so I often wear linen or other breathable pants in the heat. These are a really nice light linen that somehow also lay very nicely without looking completely rumpled like a lot of linen pants do. They look good with just about any tucked in shirt or blouse, and can go casual or classy depending on what you throw on top. I ordered the khaki, and then came back for the blue stripe. I ordered both the 10 and 12 since I am often between those sizes and ended up keeping the 12. It felt better to have a bit more ease in the waist and the pleats laid better with a slightly looser fit. I'm a pear shape and these are really great at balancing out my bottom half and giving me a nipped in waist. They're a perfect length to wear with sandals for me (5'9''). I'm actually considering getting the cornstalk chambray as well because I can see this classic style working for me for many summers to come.",
+      "date": "a month ago",
+      "product_url": "https://www.everlane.com/products/womens-linen-way-high-drape-pant-cocoa?collection=womens-best-sellers"
+    },
+    {
+      "reviewer": "Joy_a",
+      "rating": 5,
+      "comment": "Love, love, love! These pants are soooo comfortable. A perfect summer staple. Seriously the best linen pants I've ever owned and they elicit compliments every time I wear them...even one called out from a kind stranger walking by. I love them so much I've ordered two other colors. I'm 5'8, 120lbs and the size 2 fit great.",
+      "date": "6 days ago",
+      "product_url": "https://www.everlane.com/products/womens-linen-way-high-drape-pant-black"
+    },
+    {
+      "reviewer": "Mjoyce",
+      "rating": 5,
+      "comment": "Great fit. This is the only pair of pleated pants I've tried on where the pleats lay flat. I don't know if it's because the waist is so high (it's practically on my rib cage), but the fit is very flattering. Plus, they make every top look fancy. I got them in black, and they make even t-shirts look chic.",
+      "date": "14 days ago",
+      "product_url": "https://www.everlane.com/products/womens-linen-way-high-drape-pant-black"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
       "url": "https://www.everlane.com/products/womens-linen-way-high-drape-pant-black?collection=womens-best-sellers",
       "image1": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/b271f000_9569/womens-linen-way-high-drape-pant-black",
       "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/63ac850e_ab0d/womens-linen-way-high-drape-pant-black",
@@ -9,6 +61,7 @@
       "color": "Black"
     },
     {
+      "id": 2,
       "url": "https://www.everlane.com/products/womens-organic-cotton-box-cut-tee-white?collection=womens-best-sellers",
       "image1": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/8e3f76d9_8d7e/womens-organic-cotton-box-cut-tee-white",
       "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/0db958de_a7c9/womens-organic-cotton-box-cut-tee-white",
@@ -20,6 +73,7 @@
       "sustainability_2": "Cleaner Chemistry"
     },
     {
+      "id": 3,
       "url": "https://www.everlane.com/products/womens-linen-easy-pant-black?collection=womens-best-sellers",
       "image1": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/e4c56215_9988/womens-linen-easy-pant-black",
       "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/1f8c50a5_03d4/womens-linen-easy-pant-black",
@@ -28,6 +82,7 @@
       "color": "Black"
     },
     {
+      "id": 4,
       "url": "https://www.everlane.com/products/womens-organic-cotton-slim-crew-tee-white?collection=womens-best-sellers",
       "image1": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/ad87f3ab_d655/womens-organic-cotton-slim-crew-tee-white",
       "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/0cf86053_d659/womens-organic-cotton-slim-crew-tee-white",
@@ -38,6 +93,7 @@
       "sustainability": "Organic Cotton"
     },
     {
+      "id": 5,
       "url": "https://www.everlane.com/products/womens-supima-jersey-riviera-dress-black?collection=womens-best-sellers",
       "image1": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/cf7e732a_415b/womens-supima-jersey-riviera-dress-black",
       "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/aeff8e4b_dea8/womens-supima-jersey-riviera-dress-black",
@@ -46,6 +102,7 @@
       "color": "Black"
     },
     {
+      "id": 6,
       "url": "https://www.everlane.com/products/womens-boxy-oxford-black-white-stripe?collection=womens-best-sellers",
       "image1": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/5bf574ff_c065/womens-boxy-oxford-black-white-stripe",
       "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/f383bd39_f6df/womens-boxy-oxford-black-white-stripe",
@@ -56,6 +113,7 @@
       "sustainability_2": "Cleaner Chemistry"
     },
     {
+      "id": 7,
       "url": "https://www.everlane.com/products/womens-linen-cottage-shirt-dress-navy?collection=womens-best-sellers",
       "image1": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/5316357e_df8c/womens-linen-cottage-shirt-dress-navy",
       "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/c7d20032_9c2f/womens-linen-cottage-shirt-dress-navy",
@@ -65,6 +123,7 @@
       "new": "New!"
     },
     {
+      "id": 8,
       "url": "https://www.everlane.com/products/womens-organic-cotton-cutaway-tank-white?collection=womens-best-sellers",
       "image1": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/647333c8_7a7b/womens-organic-cotton-cutaway-tank-white",
       "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/48b5e199_ca40/womens-organic-cotton-cutaway-tank-white",
@@ -76,6 +135,7 @@
       "sustainability_2": "Cleaner Chemistry"
     },
     {
+      "id": 9,
       "url": "https://www.everlane.com/products/womens-organic-cotton-weekend-tank-dress-black?collection=womens-best-sellers",
       "image1": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/c6f6b0b6_deb4/womens-organic-cotton-weekend-tank-dress-black",
       "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/4dcf6fda_3dbb/womens-organic-cotton-weekend-tank-dress-black",
@@ -86,14 +146,33 @@
       "sustainability_2": "Cleaner Chemistry"
     },
     {
+      "id": 10,
       "url": "https://www.everlane.com/products/womens-linen-a-line-midi-dress-black?collection=womens-best-sellers",
-      "image1": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/b2c190d9_5b40/womens-linen-a-line-midi-dress-black",
-      "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/b3fc2363_0f14/womens-linen-a-line-midi-dress-black",
+      "image1": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/a7d42b36_3dc2/womens-linen-a-line-midi-dress-black",
+      "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/f6acfb0d_4fd2/womens-linen-a-line-midi-dress-black",
       "name": "The Linen A-Line Midi Dress",
-      "price": "₹ 12720",
+      "price": "₹ 11000",
       "color": "Black"
+    },
+    {
+      "id": 11,
+      "url": "https://www.everlane.com/products/womens-organic-cotton-crewneck-sweater-navy?collection=womens-best-sellers",
+      "image1": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/9c29ac14_44dd/womens-organic-cotton-crewneck-sweater-navy",
+      "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/9b45f348_6311/womens-organic-cotton-crewneck-sweater-navy",
+      "name": "The Organic Cotton Crewneck Sweater",
+      "price": "₹ 6400",
+      "color": "Navy",
+      "sustainability": "Organic Cotton"
+    },
+    {
+      "id": 12,
+      "url": "https://www.everlane.com/products/womens-organic-cotton-crewneck-sweater-cream?collection=womens-best-sellers",
+      "image1": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/70c1c906_a9d3/womens-organic-cotton-crewneck-sweater-cream",
+      "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/7b5f62b5_42ee/womens-organic-cotton-crewneck-sweater-cream",
+      "name": "The Organic Cotton Crewneck Sweater",
+      "price": "₹ 6400",
+      "color": "Cream",
+      "sustainability": "Organic Cotton"
     }
   ]
-  
- }
- 
+}

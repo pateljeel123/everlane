@@ -5,6 +5,7 @@ import Discount from'./Discount'
 import Ocan from'./Ocan'
 import Everywhere from'./Everywhere'
 import Coolimg from './Coolimg'
+import Footer from './Footer'
 
 
 function Home() {
@@ -20,6 +21,8 @@ function Home() {
       <Discount/>
       <Ocan/>
       <Everywhere/>
+      <Footer/>
+      
     </div>
   )
 }

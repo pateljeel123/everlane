@@ -10,7 +10,7 @@ function Category() {
   ];
 
   return (
-    <div className="container my-5">
+    <div className="container-fluid my-5">
       <h1 className="text-center mb-4">Shop by Category</h1>
       <div className="row row-cols-2 row-cols-md-3 row-cols-lg-6 g-3 justify-content-center">
         {categories.map((item, index) => (
