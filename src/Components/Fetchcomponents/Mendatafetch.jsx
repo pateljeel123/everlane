@@ -8,7 +8,7 @@ function Fetchdata() {
 
   const dataFetch = () => {
     axios
-      .get("http://localhost:3000/products")
+      .get(" http://localhost:3000/mendata")
       .then((res) => {
         console.log("Fetched data:", res.data); // Log fetched data
         setData(res.data);
@@ -24,19 +24,17 @@ function Fetchdata() {
 
   return (
     <div className="container-fluid mt-4 pt-5 mt-5"  >
-      
       <div className="row" style={{marginTop:"2%"}}>
         <div className="col-12 col-md-3">
           <Sidebar />
         </div>
         <div className="col-12 col-md-9">
-          <p><Link  style={{textDecoration:"none",color:"black"}} to={'/'}>Home </Link> / <Link style={{textDecoration:"none",color:"black"}} to={'/women'}> Wwomen </Link></p>
+        <p><Link  style={{textDecoration:"none",color:"black"}} to={'/men'}>Home </Link> /<Link style={{textDecoration:"none",color:"black"}} to={'/men'}> men </Link></p>
         <h1 style={{fontSize:"30px"}}>Women's Best Selling Clothing & Apparel</h1>
- 
           <div className="d-flex flex-wrap justify-content-center">
             {data.map((product) => (
               <div key={product.id} className="">
-                <Link to={`/description/${product.id}`}>
+                <Link to={`/MendescriptionPage/${product.id}`}>
                   <div className="cardjeel">
                     <img src={product.image1} alt={product.name} className="Img1" />
                     <img src={product.image2} alt={product.name} className="Img2" />

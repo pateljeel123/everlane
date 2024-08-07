@@ -5,8 +5,8 @@ import Men from './assets/Components/Navigation.jsx/Men';
 import Home from './assets/Components/Home';
 import Fetchdata from './Components/Fetchcomponents/Fetchdata';
 import DescriptionPage from './Components/DescriptionPage'; 
-import Productpage from './Components/Productpage'; // Ensure this import matches your file structure
-
+import Productpage from './Components/Productpage';  
+import MendescriptionPage from './Components/MendescriptionPage'
 function Routeis() {
   return (
     <Routes>
@@ -16,7 +16,9 @@ function Routeis() {
       <Route path="/women" element={<Women />} />
       <Route path="/description/:id" element={<DescriptionPage />} /> 
       <Route path="/productdata" element={<Fetchdata />} />
-      <Route path="/productpage" element={<Productpage />} /> {/* Add this route if not already existing */}
+      <Route path="/productpage" element={<Productpage />} />  
+      <Route path="/mendescriptionPage:id" element={<MendescriptionPage/>} />  
+      
     </Routes>
   );
 }

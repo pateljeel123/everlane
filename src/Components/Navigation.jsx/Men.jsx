@@ -138,7 +138,7 @@ function Men() {
       >
         <SwiperSlide>
           <div className="image-container">
-            <Link to="/productdata" style={{ textDecoration: 'none', color: 'inherit' }}>
+            <Link to="/mendata" style={{ textDecoration: 'none', color: 'inherit' }}>
               <img style={{ height: "100%", width: "100%", objectFit: 'cover' }} src="https://media.everlane.com/images/c_fill,w_828,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/ea9279e5_53ae/mens-essential-organic-crew-uniform-golden-oak" alt="" />
               <p>The Knit Pleated Skirt - ₹15300</p>
             </Link>
@@ -146,7 +146,7 @@ function Men() {
         </SwiperSlide>
         <SwiperSlide>
           <div className="image-container">
-            <Link to="/productdata" style={{ textDecoration: 'none', color: 'inherit' }}>
+            <Link to="/mendata" style={{ textDecoration: 'none', color: 'inherit' }}>
               <img style={{ height: "100%", width: "100%", objectFit: 'cover' }} src="https://media.everlane.com/images/c_fill,w_828,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/fcdab92f_170f/mens-stretch-twill-5-pckt-pant-navy" alt="" />
               <p>The Cocoon Crew in Everyday Cotton - ₹9460</p>
             </Link>
@@ -154,7 +154,7 @@ function Men() {
         </SwiperSlide>
         <SwiperSlide>
           <div className="image-container">
-            <Link to="/productdata" style={{ textDecoration: 'none', color: 'inherit' }}>
+            <Link to="/mendata" style={{ textDecoration: 'none', color: 'inherit' }}>
               <img style={{ height: "100%", width: "100%", objectFit: 'cover' }} src="https://media.everlane.com/images/c_fill,w_828,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/62128ced_c62d/mens-linen-ss-shirt-cocoa" alt="" />
               <p>The Boyfriend Shirt in Washable Silk - ₹14440</p>
             </Link>
@@ -162,7 +162,7 @@ function Men() {
         </SwiperSlide>
         <SwiperSlide>
           <div className="image-container">
-            <Link to="/productdata" style={{ textDecoration: 'none', color: 'inherit' }}>
+            <Link to="/mendata" style={{ textDecoration: 'none', color: 'inherit' }}>
               <img style={{ height: "100%", width: "100%", objectFit: 'cover' }} src="https://media.everlane.com/images/c_fill,w_828,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/cf701028_0ad7/mens-good-earth-cotton-polo-spring-lake" alt="" />
               <p>The Frolic Dress in Linen - ₹12720</p>
             </Link>
@@ -171,7 +171,7 @@ function Men() {
         {/* Add other slides here */}
         <SwiperSlide>
           <div className="image-container">
-            <Link to="/productdata" style={{ textDecoration: 'none', color: 'inherit' }}>
+            <Link to="/mendata" style={{ textDecoration: 'none', color: 'inherit' }}>
               <img style={{ height: "100%", width: "100%", objectFit: 'cover' }} src="https://media.everlane.com/images/c_fill,w_828,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/d3b3e644_5155/mens-renew-backpack-slate-grey" alt="" />
               <p>The Frolic Dress in Linen - ₹12720</p>
             </Link>
@@ -179,7 +179,7 @@ function Men() {
         </SwiperSlide>
         <SwiperSlide>
           <div className="image-container">
-            <Link to="/productdata" style={{ textDecoration: 'none', color: 'inherit' }}>
+            <Link to="/mendata" style={{ textDecoration: 'none', color: 'inherit' }}>
               <img style={{ height: "100%", width: "100%", objectFit: 'cover' }} src="https://media.everlane.com/images/c_fill,w_828,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/843555d7_80cd/mens-linen-ls-shirt-kalamata" alt="" />
               <p>The Frolic Dress in Linen - ₹12720</p>
             </Link>
@@ -187,7 +187,7 @@ function Men() {
         </SwiperSlide>
         <SwiperSlide>
           <div className="image-container">
-            <Link to="/productdata" style={{ textDecoration: 'none', color: 'inherit' }}>
+            <Link to="/mendata" style={{ textDecoration: 'none', color: 'inherit' }}>
               <img style={{ height: "100%", width: "100%", objectFit: 'cover' }} src="https://media.everlane.com/images/c_fill,w_828,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/c739d31a_f434/mens-seersucker-short-black" alt="" />
               <p>The Frolic Dress in Linen - ₹12720</p>
             </Link>

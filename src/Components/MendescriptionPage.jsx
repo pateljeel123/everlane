@@ -12,7 +12,7 @@ function DescriptionPage() {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:3000/products/${id}`)
+      .get(` http://localhost:3000/mendata/${id}`)
       .then((res) => {
         setPage(res.data);
       })
@@ -36,8 +36,8 @@ function DescriptionPage() {
 
   return (
     <>
-      <div className="description-page" style={{marginTop:"80px"}}>
-        
+    
+      <div className="description-page p-5" style={{marginTop:"80px"}}>
         <div className="images1">
           {page.image1 && <img src={page.image1} alt="Product" className="main-image" />}
           {page.image2 && <img src={page.image2} alt="Product" className="main-image" />}
@@ -78,14 +78,7 @@ function DescriptionPage() {
             <p>Your favorite pants now come in linen. The Linen Way-High® Drape Pant features pleats for a flattering drape, a wide leg, and floor-skimming length. Made of 100% linen so they’re breathable, light, and slightly sheer—the perfect alternative to denim for warmer days. Plus they're extra versatile so you can dress them up for weddings, or pair them with a tank for a more casual look. Designed with a non-stretch waistband. Try sizing up if you prefer more ease around the waist.</p>
           </div>
           <div className="reviews">
-            <h3>Reviews</h3>
-            <div className="review-summary">
-              <h4>Overall</h4>
-              <div className="overall-rating">
-                <span>★★★★★</span>
-                <span>4.3 Overall, average rating value is 4.3 of 5.</span>
-              </div>
-            </div>
+            
             <div className="review-breakdown">
               {reviews.map((review, index) => (
                 <div key={index} className="review-row">
@@ -96,10 +89,22 @@ function DescriptionPage() {
           </div>
         </div>
       </div>
+
+      <div className='text-center' style={{text:"center"}}>
+      <h3>Reviews</h3>
+            <div className="review-summary">
+              <h4>Overall</h4>
+              <div className=" ">
+                
+                <p className='text-center'>4.3 Overall, average rating value is 4.3 of 5.</p>
+              </div>
+            </div>
+      </div>
       <div className="container my-4">
         {reviews.map((review, index) => (
           <div key={index} className="row mb-3">
             <div className="col-md-3 col-sm-12">
+                
               <div className="d-flex flex-column align-items-start">
                 <h5 className="fw-bold">{review.reviewer}</h5>
                 <p className="text-muted mb-1">Verified</p>

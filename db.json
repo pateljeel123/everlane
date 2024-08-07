@@ -174,5 +174,107 @@
       "color": "Cream",
       "sustainability": "Organic Cotton"
     }
-  ]
+  ],
+  "mendata":[
+    {
+        "id": 13,
+        "url": "https://www.everlane.com/products/mens-performance-traveler-chino-navy?collection=mens-best-sellers",
+        "image1": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/76322d7f_af4a/mens-performance-traveler-chino-navy",
+        "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/1a8c31b4_c8f3/mens-performance-traveler-chino-navy",
+        "name": "The Performance Traveler Chino",
+        "price": "₹ 4200",
+        "color": "Navy"
+    },
+    {
+        "id": 14,
+        "url": "https://www.everlane.com/products/mens-linen-ss-camp-shirt-light-blue?collection=mens-best-sellers",
+        "image1": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/56103e1e_548a/mens-linen-ss-camp-shirt-light-blue",
+        "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/5ec9629c_3c5b/mens-linen-ss-camp-shirt-light-blue",
+        "name": "The Linen SS Camp Shirt",
+        "price": "₹ 3500",
+        "color": "Light Blue"
+    },
+    {
+        "id": 15,
+        "url": "https://www.everlane.com/products/mens-good-earth-cotton-polo-navy?collection=mens-best-sellers",
+        "image1": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/1cefc423_3e65/mens-good-earth-cotton-polo-navy",
+        "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/9d2ec00b_7afb/mens-good-earth-cotton-polo-navy",
+        "name": "The Good Earth Cotton Polo",
+        "price": "₹ 2900",
+        "color": "Navy"
+    },
+    {
+        "id": 16,
+        "url": "https://www.everlane.com/products/mens-linen-trouser-black?collection=mens-best-sellers",
+        "image1": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/76fc1e41_7f7f/mens-linen-trouser-black",
+        "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/8ba0308f_5602/mens-linen-trouser-black",
+        "name": "The Linen Trouser",
+        "price": "₹ 5200",
+        "color": "Black"
+    },
+    {
+        "id": 17,
+        "url": "https://www.everlane.com/products/mens-pull-on-perf-chino-short-blue?collection=mens-best-sellers",
+        "image1": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/fb2727d0_2529/mens-pull-on-perf-chino-short-blue",
+        "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/fb2727d0_2529/mens-pull-on-perf-chino-short-blue",
+        "name": "The Pull-On Perf Chino Short",
+        "price": "₹ 2500",
+        "color": "Blue"
+    },
+    {
+        "id": 18,
+        "url": "https://www.everlane.com/products/mens-performance-chino-athletic-slate?collection=mens-best-sellers",
+        "image1": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/0f396ce1_7b62/mens-performance-chino-athletic-slate",
+        "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/33773a13_deaf/mens-performance-chino-athletic-slate",
+        "name": "The Performance Chino - Athletic Slate",
+        "price": "₹ 3600",
+        "color": "Slate"
+    },
+    {
+        "id": 19,
+        "url": "https://www.everlane.com/products/mens-uniform-bomber-jacket-navy?collection=mens-best-sellers",
+        "image1": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/f4db3f61_5593/mens-uniform-bomber-jacket-navy",
+        "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/2ff5f4ee_f5b6/mens-uniform-bomber-jacket-navy",
+        "name": "The Uniform Bomber Jacket",
+        "price": "₹ 5800",
+        "color": "Navy"
+    },
+    {
+        "id": 20,
+        "url": "https://www.everlane.com/products/mens-organic-oxford-shirt-light-blue?collection=mens-best-sellers",
+        "image1": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/92a54d60_11e7/mens-organic-oxford-shirt-light-blue",
+        "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/2b8f1005_0545/mens-organic-oxford-shirt-light-blue",
+        "name": "The Organic Oxford Shirt",
+        "price": "₹ 3300",
+        "color": "Light Blue"
+    },
+    {
+        "id": 21,
+        "url": "https://www.everlane.com/products/mens-heavyweight-overshirt-coconut?collection=mens-best-sellers",
+        "image1": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/9281c103_0553/mens-heavyweight-overshirt-coconut",
+        "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/3f25cefe_eb5f/mens-heavyweight-overshirt-coconut",
+        "name": "The Heavyweight Overshirt",
+        "price": "₹ 4500",
+        "color": "Coconut"
+    },
+    {
+        "id": 22,
+        "url": "https://www.everlane.com/products/mens-performance-chino-9-short-trench-coat?collection=mens-best-sellers",
+        "image1": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/b2bbadfe_bfb3/mens-performance-chino-9-short-trench-coat",
+        "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/f9cd3b79_ddce/mens-performance-chino-9-short-trench-coat",
+        "name": "The Performance Chino 9 Short",
+        "price": "₹ 3700",
+        "color": "Trench Coat"
+    },
+    {
+        "id": 23,
+        "url": "https://www.everlane.com/products/mens-oversized-sweater-charcoal?collection=mens-best-sellers",
+        "image1": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/cdbb69e2_25b6/mens-oversized-sweater-charcoal",
+        "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/9143d8c4_8c5a/mens-oversized-sweater-charcoal",
+        "name": "The Oversized Sweater",
+        "price": "₹ 4600",
+        "color": "Charcoal"
+    }
+]
+
 }

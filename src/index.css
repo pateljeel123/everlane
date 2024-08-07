@@ -78,13 +78,7 @@
 .container {
 margin-top: 20px;
 }
-
-.sidebar {
-background-color: #f8f9fa;
-padding: 20px;
-border-radius: 10px;
-}
-
+ 
 
 .filter-group h5 {
 margin-bottom: 10px;
@@ -122,19 +116,7 @@ display: flex;
 flex-wrap: wrap;
 }
 
-.sidebar {
-
-padding: 10px;
-border-right: 1px solid #ddd;
-margin-bottom: 20px;
-}
-
-@media (min-width: 768px) {
-.sidebar {
-  width: 25%;
-  margin-bottom: 0;
-}
-}
+ 
 
 .filter-group {
 margin-bottom: 20px;
@@ -178,33 +160,53 @@ font-weight: bold;
 font-size: 20px; /* Larger font size for better visibility */
 color: #555;
 }
+/* Add this CSS to make the navbar fixed */
+.fixed-navbar {
+  position: fixed; /* Fixes the navbar in place */
+  top: 0; /* Position it at the top */
+  left: 0; /* Position it at the left edge */
+  right: 0; /* Extend it to the right edge */
+  z-index: 1000; /* Ensure it stays above other content */
+}
 
 
 /* sidebar */
 
-.sidebar-section {
-margin-bottom: 20px;
+/* Sidebar.css */
+
+.sidebar {
+  position: fixed; /* Ensure the sidebar stays in place */
+  top: 100px; /* Align it to the top */
+  left: 210px; /* Align it to the left */
+  width: 250px; /* Fixed width */
+  height: 100%; /* Full height */
+  border-right: 1px solid #ccc;
+  overflow-y: auto; /* Enable scrolling if the content overflows */
+  padding: 10px; /* Add padding around the content */
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
 }
 
-.sidebar-section h6 {
-margin-bottom: 10px;
-font-weight: bold;
+.sidebar h6 {
+  font-weight: bold;
 }
 
-.sidebar-section ul {
-list-style: none;
-padding: 0;
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
 }
 
-.sidebar-section ul li {
-margin-bottom: 10px;
+.sidebar ul li {
+  margin: 5px 0;
+  cursor: pointer;
+  border-radius: 50px; /* Make the background round */
+  padding: 5px 10px; /* Add some padding */
 }
 
 .color-box {
-display: inline-block;
-width: 20px;
-height: 20px;
-margin-right: 10px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
 }
 
 .color-box.black { background-color: black; }
@@ -215,34 +217,6 @@ margin-right: 10px;
 .color-box.multicolor { background-color: #ccc; }
 .color-box.tan { background-color: tan; }
 .color-box.white { background-color: white; }
-
-
-/* Sidebar.css */
-
-.sidebar {
-border-right: 1px solid #ccc;
-margin-left: 250px;
-}
-
-.sidebar h6 {
-font-weight: bold;
-}
-
-.sidebar ul {
-list-style-type: none;
-padding: 0;
-}
-
-.sidebar ul li {
-margin: 5px 0;
-cursor: pointer;
-border-radius: 50px; /* Make the background round */
-padding: 5px 10px; /* Add some padding */
-}
-
-.sidebar ul li:hover {
-background-color: #f0f0f0; /* Change to any color you prefer */
-}
 
 
 /* Productpage.css */
@@ -428,50 +402,10 @@ height: 100%;
 object-fit: cover; /* Ensures the video covers the container */
 }
 
-
-
-.cardjeel {
-  position: relative;
-  width: 100%;
-  max-width: 300px;
-  height: 400px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 10px;
-   
-}
-
- 
-
-.cardjeel img {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  border-radius: 10px;
   
-}
-
-.cardjeel .Img1 {
-  opacity: 1;
-}
-
-.cardjeel .Img2 {
-  opacity: 0;
-}
-
-.cardjeel:hover .Img1 {
-  opacity: 0;
-}
-
-.cardjeel:hover .Img2 {
-  opacity: 1;
-}
-
 .cardjeel {
   position: relative;
-  width: 600px; /* Set width to 500px */
+  width: 400px; /* Set width to 500px */
   height: 450px; /* Set height to 500px */
   margin: 15px;
   border-radius: 10px;
@@ -483,8 +417,7 @@ object-fit: cover; /* Ensures the video covers the container */
   cursor: pointer;
   overflow: hidden; /* Ensure images do not overflow */
   background-color: #fff; /* Background color of the card */
-}
-
+} 
 .cardjeel img {
   position: absolute; /* Stack images on top of each other */
   width: 100%; /* Full width of the card */
