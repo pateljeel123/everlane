@@ -7,6 +7,7 @@ import Fetchdata from './Components/Fetchcomponents/Fetchdata'
 import DescriptionPage from './Components/DescriptionPage';
 import Mendatafetch from './Components/Fetchcomponents/Mendatafetch'
 import MendescriptionPage from './Components/MendescriptionPage'
+import Search from './Components/Search';
 
 
 
@@ -21,7 +22,9 @@ function Allroute() {
       <Route path="/description/:id" element={<DescriptionPage />} /> 
       <Route path="/productdata" element={<Fetchdata/>} />
       <Route path="/mendata" element={<Mendatafetch/>} />    
-      <Route path="/mendescriptionPage/:id" element={<MendescriptionPage/>} />  
+      <Route path="/mendescriptionPage/:id" element={<MendescriptionPage/>} />
+      <Route path="/search" element={<Search/>} />  
+
 
 
 

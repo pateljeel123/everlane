@@ -105,9 +105,7 @@ margin-right: 10px;
 position: relative;
 background: rgba(255, 255, 255, 0.9);
 color: #333;
-text-align: center;
-
- 
+text-align: center; 
 width: 100%;
 }
 
@@ -506,13 +504,13 @@ footer .list-unstyled.d-flex li {
   display: flex;
   gap: 10px;
   padding-top: 70px;
-  width: 1900px;
+  width: 100%;
   
 }
 
 .images1 {
   
-  width: 7800px;
+  width: 100%;
   gap: 10px;
   margin-left: 0px;
   padding: 10px;
@@ -587,4 +585,83 @@ footer .list-unstyled.d-flex li {
 
 .review-count {
   font-size: 16px;
+}
+ 
+
+.color-box {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.color-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.color-option {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.color-box {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+}
+
+.color-box.black { background-color: black; }
+.color-box.white { background-color: white; }
+.color-box.red { background-color: red; }
+.color-box.green { background-color: green; }
+.color-box.blue { background-color: blue; }
+/* Add more color classes as needed */
+
+/* Make sure to include Bootstrap 5 in your project for responsive behavior */
+
+.color-list {
+  list-style: none;
+  padding: 0;
+}
+
+.color-option {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.color-box {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+}
+
+.color-box.black { background-color: black; }
+.color-box.blue { background-color: blue; }
+.color-box.brown { background-color: brown; }
+.color-box.green { background-color: green; }
+.color-box.grey { background-color: grey; }
+.color-box.multicolor { background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet); }
+.color-box.tan { background-color: tan; }
+.color-box.white { background-color: white; }
+
+/* Responsive sidebar */
+.sidebar {
+  position: sticky;
+  top: 0;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+  }
 }

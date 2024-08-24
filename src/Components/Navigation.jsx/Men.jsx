@@ -41,26 +41,22 @@ function Men() {
             className="mySwiper"
           >
             <SwiperSlide>
-              <img 
-                src="https://media.everlane.com/image/upload/c_scale,dpr_1.0,f_auto,q_auto,w_auto/c_limit,w_1900/v1/i/287f132e_50cd.jpg" 
-                alt="" 
-                className="img-fluid"
-              />
+              <div className="video-container">
+      <video className="video-background" autoPlay muted loop>
+        <source src="https://media.everlane.com/video/upload/c_scale,dpr_auto,q_auto,w_auto/v1722267966/ajurcxkdbx31ywiej9wb.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+
+      <div className="content-overlay">
+        <h1>Everyone Loves This Pant</h1>
+        <h2>Our best-selling Utility Barrel Pant—now in 4 shapes.</h2>
+        <Link to={'/mendata'}>
+          <button className='builder-block-btn'>Shop The COLLECTION</button>
+        </Link>
+      </div>
+    </div>
             </SwiperSlide>
-            <SwiperSlide>
-              <img 
-                src="https://cdn.builder.io/api/v1/image/assets%2F444142b2cae54a19aeb8b5ba245feffe%2F3bee793d231b4b79b90b22f1f6878330" 
-                alt="" 
-                className="img-fluid"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img 
-                src="https://cdn.builder.io/api/v1/image/assets%2F444142b2cae54a19aeb8b5ba245feffe%2F43d90a790648495a99a82f6078a9c2dd" 
-                alt="" 
-                className="img-fluid"
-              />
-            </SwiperSlide>
+            
           </Swiper>
         </div>
       </div>
@@ -77,39 +73,66 @@ function Men() {
               className="img-fluid" 
               style={{ height: "350px", objectFit: "cover" }} 
               src={item.src} 
-              alt={item.label} 
-            />
+              alt={item.label}/>
             <h5 className="mt-2">{item.label}</h5>
           </div>
         ))}
       </div>
     </div>
 
-    <div className=' container-fluid p-5' >
-                <div className="row p-3 pt-0">
-                    <div className='col-4 p-1'>
-                        <div className="d-flex flex-column justify-content-center align-items-center" style={{ backgroundImage: "url(https://media.everlane.com/image/upload/c_scale,dpr_2.0,f_auto,q_auto,w_auto/c_limit,w_1900/v1/i/3200df9e_01ba.jpg)", height: "740px", backgroundSize: "cover" }} >
-                            <h1  className='color1'>New Arrivals</h1>
-                            <button  className='builder-block-btn'>shop The latest</button>
-                        </div>
-                    </div>
-                    <div className="col-4 p-1">
-                        <div className="d-flex flex-column justify-content-center align-items-center" style={{ backgroundImage: "url(https://media.everlane.com/image/upload/c_scale,dpr_2.0,f_auto,q_auto,w_auto/c_limit,w_1900/v1/i/877c313a_c1d9.jpg)", height: "740px", backgroundSize: "cover" }} >
-                            <h1 className='color1'>Crisp & Cool</h1>
-                            <button  className='builder-block-btn'>SHOP LINEN</button>
-                        </div>
-                    </div>
-                    <div className="col-4 p-1">
-                        <div className="d-flex flex-column justify-content-center align-items-center" style={{ backgroundImage: "url(https://media.everlane.com/image/upload/c_scale,dpr_2.0,f_auto,q_auto,w_auto/c_limit,w_1900/v1/i/7b0a7637_38b1.jpg)", height: "740px", backgroundSize: "cover" }} >
-                            <h1  className='color1'>Best-Selling Tees</h1>
-                           <div style={{display:"flex",gap:"5px"}}>
-                           <button  className='builder-block-btn'>SHOP NOW</button>
-                           <button className='builder-block-btn'>THE TEE GUIDE</button>
-                           </div>
-                        </div>
-                    </div>
+    <div className='container-fluid p-5'>
+    <div className="row p-3 pt-0">
+        <div className='col-12 col-md-4 p-1 mb-3 mb-md-0'>
+            <div className="d-flex flex-column justify-content-center align-items-center text-center" 
+                 style={{ 
+                     backgroundImage: "url(https://media.everlane.com/image/upload/c_scale,dpr_2.0,f_auto,q_auto,w_auto/c_limit,w_1900/v1/i/3200df9e_01ba.jpg)", 
+                     height: "auto", 
+                     minHeight: "700px",
+                     backgroundSize: "cover", 
+                     backgroundPosition: "center" 
+                 }}>
+                <h1 className='color1'>New Arrivals</h1>
+                <Link to={'/productdata'}>
+                    <button className='builder-block-btn'>Shop The Latest</button>
+                </Link>
+            </div>
+        </div>
+        <div className="col-12 col-md-4 p-1 mb-3 mb-md-0">
+            <div className="d-flex flex-column justify-content-center align-items-center text-center" 
+                 style={{ 
+                     backgroundImage: "url(https://media.everlane.com/image/upload/c_scale,dpr_2.0,f_auto,q_auto,w_auto/c_limit,w_1900/v1/i/877c313a_c1d9.jpg)", 
+                     height: "auto", 
+                     minHeight: "700px",
+                     backgroundSize: "cover", 
+                     backgroundPosition: "center" 
+                 }}>
+                <h1 className='color1'>Crisp & Cool</h1>
+                <Link to={'/productdata'}>
+                    <button className='builder-block-btn'>Shop Linen</button>
+                </Link>
+            </div>
+        </div>
+        <div className="col-12 col-md-4 p-1">
+            <div className="d-flex flex-column justify-content-center align-items-center text-center" 
+                 style={{ 
+                     backgroundImage: "url(https://media.everlane.com/image/upload/c_scale,dpr_2.0,f_auto,q_auto,w_auto/c_limit,w_1900/v1/i/7b0a7637_38b1.jpg)", 
+                     height: "auto", 
+                     minHeight: "700px",
+                     backgroundSize: "cover", 
+                     backgroundPosition: "center" 
+                 }}>
+                <h1 className='color1'>Best-Selling Tees</h1>
+                <div style={{display: "flex", gap: "5px"}}>
+                    <Link to={'/productdata'}>
+                        <button className='builder-block-btn'>Shop Now</button>
+                        <button className='builder-block-btn'>The Tee Guide</button>
+                    </Link>
                 </div>
             </div>
+        </div>
+    </div>
+</div>
+
 
 
             <div className='jeel'>
@@ -193,6 +216,54 @@ function Men() {
             </Link>
           </div>
         </SwiperSlide>
+      </Swiper>
+    </div>
+
+
+    <div>
+    <Swiper navigation={true} modules={[Navigation]} className="mySwiper2">
+        <SwiperSlide>
+          <div className='text-start' style={{ display:"flex",alignItems:"center",width:"80%"}}>
+          <div className=''>People Are Talking
+            <p>★★★★★</p>
+            <h3>“Outstanding chino. Hands down best off the rack. Fit right out of the box. Great looking and comfortable.”</h3>
+            <p>–Ecreiz, The Performance Chino</p>
+          </div>
+          <div>
+          </div>
+        <img style={{width:"600px"}} src="https://media.everlane.com/image/upload/c_scale,dpr_1.0,f_auto,q_auto,w_auto/c_limit,w_1900/v1/i/c9a5ffc8_e896.jpg" alt="" />
+        </div></SwiperSlide>
+        <SwiperSlide><div className='text-start' style={{ display:"flex",alignItems:"center",width:"80%"}}>
+          <div className=''>People Are Talking
+            <p>★★★★★</p>
+            <h3>“Outstanding chino. Hands down best off the rack. Fit right out of the box. Great looking and comfortable.”</h3>
+            <p>–Ecreiz, The Performance Chino</p>
+          </div>
+          <div>
+          </div>
+        <img style={{width:"600px"}} src="https://media.everlane.com/image/upload/c_scale,dpr_1.0,f_auto,q_auto,w_auto/c_limit,w_1900/v1/i/08e47e24_52ed.jpg" alt="" />
+        </div></SwiperSlide>
+        <SwiperSlide><div className='text-start' style={{ display:"flex",alignItems:"center",width:"80%"}}>
+          <div className=''>People Are Talking
+            <p>★★★★★</p>
+            <h3>“Outstanding chino. Hands down best off the rack. Fit right out of the box. Great looking and comfortable.”</h3>
+            <p>–Ecreiz, The Performance Chino</p>
+          </div>
+          <div>
+          </div>
+        <img style={{width:"600px"}} src="https://media.everlane.com/image/upload/c_scale,dpr_1.0,f_auto,q_auto,w_auto/c_limit,w_1900/v1/i/eb6e419a_07b3.jpg" alt="" />
+        </div></SwiperSlide>
+        <SwiperSlide><div className='text-start' style={{ display:"flex",alignItems:"center",width:"80%"}}>
+          <div className=''>People Are Talking
+            <p>★★★★★</p>
+            <h3>“Outstanding chino. Hands down best off the rack. Fit right out of the box. Great looking and comfortable.”</h3>
+            <p>–Ecreiz, The Performance Chino</p>
+          </div>
+          <div>
+          </div>
+        <img style={{width:"600px"}} src="https://media.everlane.com/image/upload/c_scale,dpr_1.0,f_auto,q_auto,w_auto/c_limit,w_1900/v1/i/0125813f_349b.jpg" alt="" />
+        </div></SwiperSlide>
+         
       </Swiper>
     </div>
 

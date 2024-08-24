@@ -7,6 +7,7 @@ import Fetchdata from './Components/Fetchcomponents/Fetchdata';
 import DescriptionPage from './Components/DescriptionPage'; 
 import Productpage from './Components/Productpage';  
 import MendescriptionPage from './Components/MendescriptionPage'
+import Search from './Components/Search';
 function Routeis() {
   return (
     <Routes>
@@ -18,6 +19,7 @@ function Routeis() {
       <Route path="/productdata" element={<Fetchdata />} />
       <Route path="/productpage" element={<Productpage />} />  
       <Route path="/mendescriptionPage:id" element={<MendescriptionPage/>} />  
+      <Route path="/search" element={<Search/>} />  
       
     </Routes>
   );

@@ -124,157 +124,291 @@
     },
     {
       "id": 8,
-      "url": "https://www.everlane.com/products/womens-organic-cotton-cutaway-tank-white?collection=womens-best-sellers",
-      "image1": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/647333c8_7a7b/womens-organic-cotton-cutaway-tank-white",
-      "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/48b5e199_ca40/womens-organic-cotton-cutaway-tank-white",
-      "name": "The Organic Cotton Cutaway Tank",
-      "price": "₹ 2580",
-      "color": "White",
-      "special_offer": "3 for ₹ 5160",
-      "sustainability": "Organic Cotton",
-      "sustainability_2": "Cleaner Chemistry"
+      "url": "https://www.everlane.com/products/womens-utility-arc-pant-organic-black?collection=womens-best-sellers",
+      "image1": "https://media.everlane.com/images/c_fill,w_640,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/adc0ae7c_0982/womens-utility-arc-pant-organic-black",
+      "image2": "https://media.everlane.com/images/c_fill,w_640,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/a77c4f23_5f39/womens-utility-arc-pant-organic-black",
+      "name": "The Utility Barrel Pant",
+      "price": "₹ 8420",
+      "color": "Black",
+      "options": ["Select Black", "Select Bone", "Select Rosewood", "Select New Blue", "Select Cocoa", "Select Dark Forest"],
+      "sustainability": "Organic Cotton, Cleaner Chemistry"
     },
     {
       "id": 9,
-      "url": "https://www.everlane.com/products/womens-organic-cotton-weekend-tank-dress-black?collection=womens-best-sellers",
-      "image1": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/c6f6b0b6_deb4/womens-organic-cotton-weekend-tank-dress-black",
-      "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/4dcf6fda_3dbb/womens-organic-cotton-weekend-tank-dress-black",
-      "name": "The Organic Cotton Weekend Tank Dress",
-      "price": "₹ 4990",
+      "url": "https://www.everlane.com/products/womens-tencel-way-high-taper-pant-black?collection=womens-best-sellers",
+      "image1": "https://media.everlane.com/images/c_fill,w_640,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/d89095eb_449f/womens-tencel-way-high-taper-pant-black",
+      "image2": "https://media.everlane.com/images/c_fill,w_640,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/be5ae460_23b4/womens-tencel-way-high-taper-pant-black",
+      "name": "The Draper Tapered Pant in Buttersmooth",
+      "price": "₹ 9280",
       "color": "Black",
-      "sustainability": "Organic Cotton",
-      "sustainability_2": "Cleaner Chemistry"
+      "options": ["Select Black", "Select Ash Brown", "Select Navy", "Select Heather Steel"],
+      "sustainability": "Responsible Forestry"
     },
     {
       "id": 10,
-      "url": "https://www.everlane.com/products/womens-linen-a-line-midi-dress-black?collection=womens-best-sellers",
-      "image1": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/a7d42b36_3dc2/womens-linen-a-line-midi-dress-black",
-      "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/f6acfb0d_4fd2/womens-linen-a-line-midi-dress-black",
-      "name": "The Linen A-Line Midi Dress",
-      "price": "₹ 11000",
-      "color": "Black"
+      "url": "https://www.everlane.com/products/womens-relaxed-chino-black?collection=womens-best-sellers",
+      "image1": "https://media.everlane.com/images/c_fill,w_640,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/8182b871_6b7a/womens-relaxed-chino-black",
+      "image2": "https://media.everlane.com/images/c_fill,w_640,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/a92ed1c1_0453/womens-relaxed-chino-black",
+      "name": "The Chino in Buttersoft",
+      "price": "₹ 10140",
+      "color": "Black",
+      "options": ["Select Black", "Select Parchment", "Select Kalamata"],
+      "sustainability": "Responsible Forestry"
     },
     {
       "id": 11,
-      "url": "https://www.everlane.com/products/womens-organic-cotton-crewneck-sweater-navy?collection=womens-best-sellers",
-      "image1": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/9c29ac14_44dd/womens-organic-cotton-crewneck-sweater-navy",
-      "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/9b45f348_6311/womens-organic-cotton-crewneck-sweater-navy",
-      "name": "The Organic Cotton Crewneck Sweater",
-      "price": "₹ 6400",
-      "color": "Navy",
-      "sustainability": "Organic Cotton"
+      "url": "https://www.everlane.com/products/womens-way-high-slouch-black?collection=womens-best-sellers",
+      "image1": "https://media.everlane.com/images/c_fill,w_640,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/052945a9_58ee/womens-way-high-slouch-black",
+      "image2": "https://media.everlane.com/images/c_fill,w_640,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/68856249_736c/womens-way-high-slouch-black",
+      "name": "The Draper Pleated Pant in Buttersmooth",
+      "price": "₹ 11000",
+      "color": "Black",
+      "options": ["Select Black", "Select Sandstone", "Select Ash Brown", "Select Navy", "Select Seagrass", "Select Heather Steel"],
+      "sustainability": "Responsible Forestry"
     },
     {
       "id": 12,
-      "url": "https://www.everlane.com/products/womens-organic-cotton-crewneck-sweater-cream?collection=womens-best-sellers",
-      "image1": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/70c1c906_a9d3/womens-organic-cotton-crewneck-sweater-cream",
-      "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/7b5f62b5_42ee/womens-organic-cotton-crewneck-sweater-cream",
-      "name": "The Organic Cotton Crewneck Sweater",
-      "price": "₹ 6400",
-      "color": "Cream",
-      "sustainability": "Organic Cotton"
+      "url": "https://www.everlane.com/products/womens-jerssey-barrel-pant-chanterelle?collection=womens-best-sellers",
+      "image1": "https://media.everlane.com/images/c_fill,w_640,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/ef1f8d46_cd76/womens-jerssey-barrel-pant-chanterelle",
+      "image2": "https://media.everlane.com/images/c_fill,w_640,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/107f10c7_2851/womens-jerssey-barrel-pant-chanterelle",
+      "name": "The Off-Duty Barrel Pant",
+      "price": "₹ 6700",
+      "color": "Chanterelle",
+      "options": ["Select Chanterelle", "Select Bone", "Select Pale Heather Grey", "Select Navy"],
+      "sustainability": "Organic Cotton, Cleaner Chemistry"
+    },
+    {
+      "id": 13,
+      "url": "https://www.everlane.com/products/womens-viscose-knit-pleated-skirt-black?collection=womens-best-sellers",
+      "image1": "https://media.everlane.com/images/c_fill,w_640,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/a317cd97_bb80/womens-viscose-knit-pleated-skirt-black",
+      "image2": "https://media.everlane.com/images/c_fill,w_640,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/25361b1a_3ac5/womens-viscose-knit-pleated-skirt-black",
+      "name": "The Knit Pleated Skirt",
+      "price": "₹ 15300",
+      "color": "Black",
+      "options": ["Select Black", "Select Bone / Parsnip Gingham"],
+      "sustainability": "Responsible Forestry"
+    },
+    {
+      "id": 14,
+      "url": "https://www.everlane.com/products/womens-tencel-pull-on-pant-graphite?collection=womens-best-sellers",
+      "image1": "https://media.everlane.com/images/c_fill,w_640,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/88bd8080_937b/womens-tencel-pull-on-pant-graphite",
+      "image2": "https://media.everlane.com/images/c_fill,w_640,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/d0625f7e_ef2c/womens-tencel-pull-on-pant-graphite",
+      "name": "The Tapered Pant in Butterlite",
+      "price": "₹ 7560",
+      "color": "Graphite",
+      "options": ["Select Graphite", "Select Black", "Select Kalamata"],
+      "sustainability": "Responsible Forestry"
+    },
+    {
+      "id": 15,
+      "url": "https://www.everlane.com/products/womens-live-in-pant-black?collection=womens-best-sellers",
+      "image1": "https://media.everlane.com/images/c_fill,w_640,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/9f76c18c_c736/womens-live-in-pant-black",
+      "image2": "https://media.everlane.com/images/c_fill,w_640,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/5ace9812_eff0/womens-live-in-pant-black",
+      "name": "The Dream Pant®",
+      "price": "₹ 7560",
+      "color": "Black",
+      "options": ["Select Black", "Select Dark Forest", "Select Navy", "Select Graphite", "Select Tiger's Eye", "Select Mid Heather Grey"],
+      "sustainability": "Ever-Better Factory"
+    },
+    {
+      "id": 16,
+      "url": "https://www.everlane.com/products/womens-cotton-phoebe-trouser-black?collection=womens-best-sellers",
+      "image1": "https://media.everlane.com/images/c_fill,w_640,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/fabdaa3d_13a2/womens-cotton-phoebe-trouser-black",
+      "image2": "https://media.everlane.com/images/c_fill,w_640,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/67b5be68_c071/womens-cotton-phoebe-trouser-black",
+      "name": "The Phoebe Trouser",
+      "price": "₹ 10140",
+      "color": "Black",
+      "options": ["Select Black", "Select Navy", "Select Sage Green", "Select White"],
+      "sustainability": "Organic Cotton, Cleaner Chemistry"
     }
+    
   ],
   "mendata":[
     {
-        "id": 13,
-        "url": "https://www.everlane.com/products/mens-performance-traveler-chino-navy?collection=mens-best-sellers",
-        "image1": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/76322d7f_af4a/mens-performance-traveler-chino-navy",
-        "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/1a8c31b4_c8f3/mens-performance-traveler-chino-navy",
-        "name": "The Performance Traveler Chino",
-        "price": "₹ 4200",
-        "color": "Navy"
+      "id": 1,
+      "url": "https://www.everlane.com/products/mens-ls-pique-shirt-deep-navy?collection=mens-sale",
+      "image1": "https://media.everlane.com/images/c_fill,w_640,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/f98c4aea_8902/mens-ls-pique-shirt-deep-navy",
+      "image2": "https://media.everlane.com/images/c_fill,w_640,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/c10df2a6_d6bf/mens-ls-pique-shirt-deep-navy",
+      "name": "The Long-Sleeve Pique Shirt",
+      "price": "₹ 7560",
+      "special_offer": "70% off",
+      "color": "Deep Navy",
+      "category": "Shirts",
+      "sustainability": "Cleaner Cotton"
     },
     {
-        "id": 14,
-        "url": "https://www.everlane.com/products/mens-linen-ss-camp-shirt-light-blue?collection=mens-best-sellers",
-        "image1": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/56103e1e_548a/mens-linen-ss-camp-shirt-light-blue",
-        "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/5ec9629c_3c5b/mens-linen-ss-camp-shirt-light-blue",
-        "name": "The Linen SS Camp Shirt",
-        "price": "₹ 3500",
-        "color": "Light Blue"
+      "id": 2,
+      "url": "https://www.everlane.com/products/mens-ls-pique-shirt-kalamata?collection=mens-sale",
+      "image1": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/1c0400a0_cb41/mens-ls-pique-shirt-kalamata",
+      "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/4aa917b0_8a0a/mens-ls-pique-shirt-kalamata",
+      "name": "The Long-Sleeve Pique Shirt",
+      "price": "₹ 7560",
+      "special_offer": "60% off",
+      "color": "Kalamata",
+      "category": "Shirts",
+      "sustainability": "Cleaner Cotton"
     },
     {
-        "id": 15,
-        "url": "https://www.everlane.com/products/mens-good-earth-cotton-polo-navy?collection=mens-best-sellers",
-        "image1": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/1cefc423_3e65/mens-good-earth-cotton-polo-navy",
-        "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/9d2ec00b_7afb/mens-good-earth-cotton-polo-navy",
-        "name": "The Good Earth Cotton Polo",
-        "price": "₹ 2900",
-        "color": "Navy"
+      "id": 3,
+      "url": "https://www.everlane.com/products/mens-ls-pique-shirt-black?collection=mens-sale",
+      "image1": "https://media.everlane.com/images/c_fill,w_640,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/a5aa16a4_2ef4/mens-ls-pique-shirt-black",
+      "image2": "https://media.everlane.com/images/c_fill,w_640,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/2491bc0a_fa19/mens-ls-pique-shirt-black",
+      "name": "The Long-Sleeve Pique Shirt",
+      "price": "₹ 7560",
+      "special_offer": "60% off",
+      "color": "Black",
+      "category": "Shirts",
+      "sustainability": "Cleaner Cotton"
     },
     {
-        "id": 16,
-        "url": "https://www.everlane.com/products/mens-linen-trouser-black?collection=mens-best-sellers",
-        "image1": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/76fc1e41_7f7f/mens-linen-trouser-black",
-        "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/8ba0308f_5602/mens-linen-trouser-black",
-        "name": "The Linen Trouser",
-        "price": "₹ 5200",
-        "color": "Black"
+      "id": 4,
+      "url": "https://www.everlane.com/products/mens-organic-oxford-shirt-cornstalk?collection=mens-sale",
+      "image1": "https://media.everlane.com/images/c_fill,w_640,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/bbda9643_8661/mens-organic-oxford-shirt-cornstalk",
+      "image2": "https://media.everlane.com/images/c_fill,w_640,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/bc22002a_e2f3/mens-organic-oxford-shirt-cornstalk",
+      "name": "The Classic Oxford Shirt",
+      "price": "₹ 7560",
+      "special_offer": "60% off",
+      "color": "Cornstalk",
+      "category": "Shirts",
+      "sustainability": "Organic Cotton"
     },
     {
-        "id": 17,
-        "url": "https://www.everlane.com/products/mens-pull-on-perf-chino-short-blue?collection=mens-best-sellers",
-        "image1": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/fb2727d0_2529/mens-pull-on-perf-chino-short-blue",
-        "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/fb2727d0_2529/mens-pull-on-perf-chino-short-blue",
-        "name": "The Pull-On Perf Chino Short",
-        "price": "₹ 2500",
-        "color": "Blue"
+      "id": 5,
+      "url": "https://www.everlane.com/products/mens-premium-weight-ss-polo-black?collection=mens-sale",
+      "image1": "https://media.everlane.com/images/c_fill,w_640,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/791f4a6c_b379/mens-premium-weight-ss-polo-black",
+      "image2": "https://media.everlane.com/images/c_fill,w_640,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/c4df8bc3_bec1/mens-premium-weight-ss-polo-black",
+      "name": "The Premium Weight Short-Sleeve Polo",
+      "price": "₹ 6450",
+      "special_offer": "50% off",
+      "color": "Black",
+      "category": "Polo",
+      "sustainability": "Organic Cotton"
     },
     {
-        "id": 18,
-        "url": "https://www.everlane.com/products/mens-performance-chino-athletic-slate?collection=mens-best-sellers",
-        "image1": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/0f396ce1_7b62/mens-performance-chino-athletic-slate",
-        "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/33773a13_deaf/mens-performance-chino-athletic-slate",
-        "name": "The Performance Chino - Athletic Slate",
-        "price": "₹ 3600",
-        "color": "Slate"
+      "id": 6,
+      "url": "https://www.everlane.com/products/mens-re-track-sweatpant-navy?collection=mens-sale",
+      "image1": "https://media.everlane.com/images/c_fill,w_640,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/19064b7c_d0ec/mens-re-track-sweatpant-navy",
+      "image2": "https://media.everlane.com/images/c_fill,w_640,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/11aee512_e8f4/mens-re-track-sweatpant-navy",
+      "name": "The ReTrack Sweatpant",
+      "price": "₹ 7560",
+      "special_offer": "60% off",
+      "color": "Navy",
+      "category": "Sweatpants",
+      "sustainability": "Renewed Materials"
     },
     {
-        "id": 19,
-        "url": "https://www.everlane.com/products/mens-uniform-bomber-jacket-navy?collection=mens-best-sellers",
-        "image1": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/f4db3f61_5593/mens-uniform-bomber-jacket-navy",
-        "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/2ff5f4ee_f5b6/mens-uniform-bomber-jacket-navy",
-        "name": "The Uniform Bomber Jacket",
-        "price": "₹ 5800",
-        "color": "Navy"
+      "id": 7,
+      "url": "https://www.everlane.com/products/mens-linen-ss-popover-shirt-black?collection=mens-sale",
+      "image1": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/85178761_da6a/mens-linen-ss-popover-shirt-black",
+      "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/c2743bc4_e617/mens-linen-ss-popover-shirt-black",
+      "name": "The Linen Short-Sleeve Popover Shirt",
+      "price": "₹ 6700",
+      "special_offer": "Was - ₹ 4020",
+      "color": "Black",
+      "category": "Shirts",
+      "sustainability": "Cleaner Cotton"
     },
     {
-        "id": 20,
-        "url": "https://www.everlane.com/products/mens-organic-oxford-shirt-light-blue?collection=mens-best-sellers",
-        "image1": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/92a54d60_11e7/mens-organic-oxford-shirt-light-blue",
-        "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/2b8f1005_0545/mens-organic-oxford-shirt-light-blue",
-        "name": "The Organic Oxford Shirt",
-        "price": "₹ 3300",
-        "color": "Light Blue"
+      "id": 8,
+      "url": "https://www.everlane.com/products/mens-re-track-hoodie-navy?collection=mens-sale",
+      "image1": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/62c1b896_c7c9/mens-re-track-hoodie-navy",
+      "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/3f57f632_ff67/mens-re-track-hoodie-navy",
+      "name": "The ReTrack Hoodie",
+      "price": "₹ 8420",
+      "special_offer": "Was - ₹ 3370",
+      "color": "Navy",
+      "category": "Hoodies",
+      "sustainability": "Renewed Materials"
     },
     {
-        "id": 21,
-        "url": "https://www.everlane.com/products/mens-heavyweight-overshirt-coconut?collection=mens-best-sellers",
-        "image1": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/9281c103_0553/mens-heavyweight-overshirt-coconut",
-        "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/3f25cefe_eb5f/mens-heavyweight-overshirt-coconut",
-        "name": "The Heavyweight Overshirt",
-        "price": "₹ 4500",
-        "color": "Coconut"
+      "id": 9,
+      "url": "https://www.everlane.com/products/mens-retrack-crewneck-sweatshirt-navy?collection=mens-sale",
+      "image1": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/42132370_a657/mens-retrack-crewneck-sweatshirt-navy",
+      "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/c114715b_ee62/mens-retrack-crewneck-sweatshirt-navy",
+      "name": "The ReTrack Crewneck Sweatshirt",
+      "price": "₹ 7560",
+      "special_offer": "Was - ₹ 3020",
+      "color": "Navy",
+      "category": "Sweatshirts",
+      "sustainability": "Renewed Materials"
     },
     {
-        "id": 22,
-        "url": "https://www.everlane.com/products/mens-performance-chino-9-short-trench-coat?collection=mens-best-sellers",
-        "image1": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/b2bbadfe_bfb3/mens-performance-chino-9-short-trench-coat",
-        "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/f9cd3b79_ddce/mens-performance-chino-9-short-trench-coat",
-        "name": "The Performance Chino 9 Short",
-        "price": "₹ 3700",
-        "color": "Trench Coat"
-    },
-    {
-        "id": 23,
-        "url": "https://www.everlane.com/products/mens-oversized-sweater-charcoal?collection=mens-best-sellers",
-        "image1": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/cdbb69e2_25b6/mens-oversized-sweater-charcoal",
-        "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/9143d8c4_8c5a/mens-oversized-sweater-charcoal",
-        "name": "The Oversized Sweater",
-        "price": "₹ 4600",
-        "color": "Charcoal"
+      "id": 10,
+      "url": "https://www.everlane.com/products/mens-retrack-sweatshirt-grey?collection=mens-sale",
+      "image1": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/a25e418b_c74d/mens-retrack-sweatshirt-grey",
+      "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/8d3d4979_43da/mens-retrack-sweatshirt-grey",
+      "name": "The ReTrack Sweatshirt",
+      "price": "₹ 7560",
+      "special_offer": "Was - ₹ 3020",
+      "color": "Grey",
+      "category": "Sweatshirts",
+      "sustainability": "Renewed Materials"
     }
+  ]
+  ,
+"slider":[
+  {
+      "image1": "https://www.everlane.com/products/mens-premium-weight-rlx-ls-navy",
+      "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/67a1f8a1_59d3/mens-premium-weight-rlx-ls-navy",
+      "name": "The Premium-Weight Relaxed Crew",
+      "price": "₹ 5160",
+      "color": "Navy"
+  },
+  {
+      "image1": "https://www.everlane.com/products/mens-authentic-straight-jean-whisper-blue",
+      "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/19a8462b_778e/mens-authentic-straight-jean-whisper-blue",
+      "name": "The Authentic Straight Jean",
+      "price": "₹ 10140",
+      "color": "Whisper Blue",
+      "badge": "Selling fast!"
+  },
+  {
+      "image1": "https://www.everlane.com/products/mens-cfo-shirt-black-chambray",
+      "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/101fcbea_67ee/mens-cfo-shirt-black-chambray",
+      "name": "The Startup Shirt",
+      "price": "₹ 7560",
+      "color": "Black Chambray"
+  },
+  {
+      "image1": "https://www.everlane.com/products/mens-cashmere-vneck-hthr-army-green",
+      "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/ebb074c1_1afb/mens-cashmere-vneck-hthr-army-green",
+      "name": "The Cashmere V-Neck Sweater",
+      "price": "₹ 14610",
+      "color": "Heather Army Green"
+  },
+  {
+      "image1": "https://www.everlane.com/products/mens-performance-chino-athletic-abalone",
+      "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/a98c187b_5c24/mens-performance-chino-athletic-abalone",
+      "name": "The Performance Chino | Uniform",
+      "price": "₹ 8420",
+      "color": "Abalone",
+      "badge": "UNIFORM"
+  },
+  {
+      "image1": "https://www.everlane.com/products/mens-canvas-organic-cotton-overshirt-navy",
+      "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/776d014d_8c7e/mens-canvas-organic-cotton-overshirt-navy",
+      "name": "The Canvas Organic Cotton Overshirt",
+      "price": "₹ 9280",
+      "color": "Navy"
+  },
+  {
+      "image1": "https://www.everlane.com/products/mens-off-duty-crew-black",
+      "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/91237c35_c0db/mens-off-duty-crew-black",
+      "name": "The Off-Duty Terry Crew",
+      "price": "₹ 5850",
+      "color": "Black"
+  },
+  {
+      "image1": "https://www.everlane.com/products/mens-off-duty-jogger-black",
+      "image2": "https://media.everlane.com/images/c_fill,w_3840,ar_250:312,q_auto,dpr_1.0,f_auto,fl_progressive:steep/i/48413d2d_fd96/mens-off-duty-jogger-black",
+      "name": "The Off-Duty Jogger",
+      "price": "₹ 6700",
+      "color": "Black"
+  }
 ]
+
+ 
+  
+ 
 
 }

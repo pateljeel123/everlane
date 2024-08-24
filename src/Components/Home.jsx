@@ -6,6 +6,7 @@ import Ocan from'./Ocan'
 import Everywhere from'./Everywhere'
 import Coolimg from './Coolimg'
 import Footer from './Footer'
+import Rating from './Rating'
 
 
 function Home() {
@@ -19,6 +20,7 @@ function Home() {
       <Coolimg/>
       <Category/>
       <Discount/>
+      <Rating/>
       <Ocan/>
       <Everywhere/>
       <Footer/>
